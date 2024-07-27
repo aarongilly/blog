@@ -4,7 +4,7 @@ date: ""
 tags: 
 description: 
 draft: true
-aliases: 
+permalink: 
 enableToc: true
 ---
 Preamble

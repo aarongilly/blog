@@ -12,23 +12,20 @@ draft: true
 	- [ ] italic
 	- [ ] Headings
 ### Before Publish
-- [ ] Create secondary features image (250x90):
-	- [ ] WSaM
-	- [ ] Creations
-	- [ ] PDW
-- [ ] Improve navigation
-	- [ ] "next post, previous post"
-	- [x] persistent link to most recent post
 ## Doing
 - [ ] 🔥 Test RSS feed in Mailchimp
-	- [ ] Need to publish to the web
-	- [ ] {{baseURL}}/index.xml on `feeeed`
+	- [ ] wait a day or so, post fake new blog
+	- [x] Need to publish to the web
+	- [x] {{baseURL}}/index.xml on `feeeed`
 - [ ] See if you can customize grouping on the folder page
 ## Done
+- [x] Improve navigation
+	- [x] persistent link to most recent post
+- [x] Create secondary features image (250x90):
 - [x] Fill out the [[About]]
 - [x] move posts to a 'Columns' folder & update frontmatter with `permalink`s
 - [x] Figure out how to **unfilter** html files
-- [/] Build custom component that shows the follow button & your bio blurb
+- [x] Build custom component that shows the follow button & your bio blurb
 	- [x] Download remaining Lucide icons
 	- [x] Make the mobile version look better
 - [x] Add `date` field to all pages & creations to prevent default behavior for **recent posts**
