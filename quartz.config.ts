@@ -13,7 +13,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null, //customized
     locale: "en-US",
-    baseUrl: "aarongilly.com",
+    baseUrl: "blog-a3i.pages.dev/",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {

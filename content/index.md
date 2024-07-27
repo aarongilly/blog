@@ -1,7 +1,10 @@
 ---
 title: Home
 enableToc: false
+date: 2024-07-26
 ---
+> [!success] Current Column → [[458]]
+
 Hi. I'm Aaron. Welcome to my website. I'm glad you're here.
 
 I write and create things to entertain and inform... mostly myself. I don't sell anything. I'm not here to make money. I'm here to enjoy myself; and I hope you do too. See what I'm up to [[Now]].
@@ -10,7 +13,7 @@ I write and create things to entertain and inform... mostly myself. I don't sell
 %%this works on Quartz%%
 %%also comments are properly filtered out on Quartz. Nice.%%
 <div style='display:grid; grid-template-columns: 1fr 1fr 1fr'>
-	<a href="https://aarongilly.com/Pages/About">
+	<a href="/Pages/About">
 		<img src="./assets/home-feature-column.png"/>
 		<div class="feature-head">The Column</div>
 	</a>
@@ -27,15 +30,15 @@ I write and create things to entertain and inform... mostly myself. I don't sell
 ## Secondary Features
 <div style='display:grid; grid-template-columns: 1fr 1fr 1fr'>
 	<a href="https://shows.acast.com/we-scene-a-movie">
-		<img src="./assets/home-feature-podcast.png"/>
+		<img src="./assets/home-feature-podcast.png" style="height: 93px"/>
 		<div class="feature-head">Movie Podcast</div>
 	</a>
-	<a href="https://aarongilly.com/Pages/Creations">
-		<img src="./assets/home-feature-notes.png"/>
+	<a href="/Pages/Creations">
+		<img src="./assets/home-feature-creations.png"/>
 		<div class="feature-head">Creations</div>
 	</a>
-	<a href="https://aarongilly.com/Pages/PDW">
-		<img src="./assets/home-feature-puzzles.png"/>
+	<a href="/Pages/PDW">
+		<img src="./assets/home-feature-pdw.png"/>
 		<div class="feature-head">Personal Data Warehouse</div>
 	</a>
 </div>

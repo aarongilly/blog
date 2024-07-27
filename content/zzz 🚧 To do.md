@@ -4,6 +4,7 @@ draft: true
 ---
 ## To Do
 ### After Publish
+- [ ] Perhaps update the Index with a custom Index-only component - [start here](https://discord.com/channels/927628110009098281/1211952698673602580/1211952698673602580)
 - [ ] clean out tags
 - [ ] Fix animation on [[446]]
 - [ ] Trick out the CSS in `myStyles.css` in Obsidian & copy to `custom.scss` in Quartz
@@ -11,18 +12,22 @@ draft: true
 	- [ ] italic
 	- [ ] Headings
 ### Before Publish
-- [ ] Fill out the [[About]]
-- [ ] 🔥 Test RSS feed in Mailchimp
-	- [ ] Need to publish to the web
-	- [ ] {{baseURL}}/index.xml on `feeeed`
-- [ ] move posts to a 'Columns' folder & update frontmatter with `permalink`s
-	- [ ] See if you can customize grouping on the folder page
+- [ ] Create secondary features image (250x90):
+	- [ ] WSaM
+	- [ ] Creations
+	- [ ] PDW
 - [ ] Improve navigation
 	- [ ] "next post, previous post"
 	- [x] persistent link to most recent post
-- [ ] Figure out how to **unfilter** html files
 ## Doing
+- [ ] 🔥 Test RSS feed in Mailchimp
+	- [ ] Need to publish to the web
+	- [ ] {{baseURL}}/index.xml on `feeeed`
+- [ ] See if you can customize grouping on the folder page
 ## Done
+- [x] Fill out the [[About]]
+- [x] move posts to a 'Columns' folder & update frontmatter with `permalink`s
+- [x] Figure out how to **unfilter** html files
 - [/] Build custom component that shows the follow button & your bio blurb
 	- [x] Download remaining Lucide icons
 	- [x] Make the mobile version look better

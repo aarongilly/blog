@@ -1,5 +1,4 @@
 ---
-title: Creations Catalog
 enableToc: true
 date: 2024-07-25
 ---
@@ -8,6 +7,9 @@ The creations catalog. An incomplete list of things I’ve made that I felt like
 ## ![[Brief Mystery]]
 ## ![[Jacked Giraffe]]
 ## ![[Pixel Art Self Portrait]]
+![[Semantic Canvas]]
+
+
 ## Master Bath Remodel
 Demo & rebuild.
 

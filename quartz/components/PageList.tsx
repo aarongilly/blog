@@ -37,11 +37,17 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
     list = list.slice(0, limit)
   }
 
+  let prevYear = '2000'
+
   return (
     <ul class="section-ul">
       {list.map((page) => {
         const title = page.frontmatter?.title
         const tags = page.frontmatter?.tags ?? []
+        
+        /* ACCESS GRANTED */
+        //// @ts-expect-error
+        // console.log(page.frontmatter?.date.substring(0,4))
 
         return (
           <li class="section-li">
