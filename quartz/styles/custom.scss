@@ -1,3 +1,43 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// my custom CSS - same content as what's in obsidian
+h1, .cm-header-1{
+    /* color: orange; */
+}
+
+em{
+    /* color: pink; */
+}
+
+strong{
+    /* color: salmon; */
+}
+
+.feature-head{
+    font-size: x-large;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/* FOOTER SECTION */
+.footer-link{
+    display:flex; 
+    align-items: center; 
+    flex-wrap: none
+}
+
+.footer-link-box{
+    margin: 0em 0em; 
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: center; 
+    align-content: center; 
+    gap: 15px;
+}
+
+.footer-grid{
+    display:grid; 
+    grid-template-columns: 1fr 1fr 2fr
+}

@@ -24,7 +24,7 @@ const defaultOptions = {
       return a.displayName.localeCompare(b.displayName, undefined, {
         numeric: true,
         sensitivity: "base",
-      })
+      }) * -1  // changed ###########################
     }
 
     if (a.file && !b.file) {

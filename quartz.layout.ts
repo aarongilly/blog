@@ -4,35 +4,51 @@ import * as Component from "./quartz/components"
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [],
-  afterBody: [],
-  footer: Component.Footer({
+  header: [
+    // Component.MyCustomComponent()
+  ],
+  afterBody: [
+    // Component.MyCustomComponent()
+    Component.MobileOnly(Component.RecentNotes({title: "Recent Content"}))
+  ],//Component.MyCustomComponent()],
+  footer: Component.Footer({ // I customized the compontent itself
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      "✉️ Subscribe": "http://eepurl.com/gNPOV9",
+      "? About": "/Pages/About",
     },
   }),
+  // footer: 
 }
 
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.Breadcrumbs(),
+    // Component.Breadcrumbs(),
     Component.ArticleTitle(),
-    Component.ContentMeta(),
     Component.TagList(),
+    Component.ContentMeta(),
+    Component.MobileOnly(Component.TableOfContents()),
   ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
+    // Component.MobileOnly(Component.Search()),
+    // Component.MobileOnly(Component.MyCustomMobileComponent()),
+    Component.DesktopOnly(Component.MyCustomComponent()),
+    Component.Spacer(),
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
-    Component.Graph(),
+    // Component.TableOfContents(),
+    // Component.DesktopOnly(Component.Search()),
+    // Component.Search(),
+    // Component.DesktopOnly(Component.MyCustomComponent()),
+    Component.Search(),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
+    Component.DesktopOnly(Component.RecentNotes({title: "Recent Content", limit: 4})),
+    // Component.Backlinks(),
+    // Component.Graph(),
+    // Component.Darkmode(),
   ],
 }
 
@@ -43,8 +59,9 @@ export const defaultListPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.Darkmode(),
+    // Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
   ],
-  right: [],
+  right: [
+    Component.MyCustomComponent(),],
 }
