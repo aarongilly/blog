@@ -11,14 +11,17 @@ draft: true
 	- [ ] bold
 	- [ ] italic
 	- [ ] Headings
+- [ ] See if you can customize grouping on the folder page
 ### Before Publish
 ## Doing
-- [ ] 🔥 Test RSS feed in Mailchimp
-	- [ ] wait a day or so, post fake new blog
+- [ ] Go live. 
+	- [ ] Swap domain
+	- [ ] pause & update RSS
+## Done
+- [x] 🔥 Test RSS feed in Mailchimp
+	- [x] wait a day or so, post fake new blog
 	- [x] Need to publish to the web
 	- [x] {{baseURL}}/index.xml on `feeeed`
-- [ ] See if you can customize grouping on the folder page
-## Done
 - [x] Improve navigation
 	- [x] persistent link to most recent post
 - [x] Create secondary features image (250x90):
