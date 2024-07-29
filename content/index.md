@@ -30,13 +30,13 @@ I write and create things to entertain and inform... mostly myself. I don't sell
 </div>
 
 ## Secondary Features
-<div style='display:grid; grid-template-columns: 1fr 1fr 1fr; gap: 5px;'>
+<div style='display:grid; grid-template-columns: 1fr 1fr 1fr'>
 	<a href="https://shows.acast.com/we-scene-a-movie">
-		<img src="./assets/home-feature-podcast.png" />
+		<img src="./assets/home-feature-podcast.png"/>
 		<div class="feature-head">Movie Podcast</div>
 	</a>
 	<a href="/Pages/Creations">
-		<img src="./assets/home-feature-creations.png" />
+		<img src="./assets/home-feature-creations.png"/>
 		<div class="feature-head">Creations</div>
 	</a>
 	<a href="/Pages/PDW">
