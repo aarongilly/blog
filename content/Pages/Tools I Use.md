@@ -37,6 +37,10 @@ This page I update from time to time to reflect what tools I use to do things.
 - Mac Mini 2023
 - Windows Desktop (custom build, aging)
 - Synology NAS DiskStation DS920+
+### Peripherals
+- [Dell S2721QS](https://www.amazon.com/gp/product/B08DQWG3JG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1) Monitor x2 - highly recommended
+- [Logitech MX Master 3S](https://www.amazon.com/gp/product/B09KWXZ1HW/)
+- Apple's standard detached mac keyboard
 ### Capture Devices
 - Apple Pencil
 - Apple Smart Keyboard Folio

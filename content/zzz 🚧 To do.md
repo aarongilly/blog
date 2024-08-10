@@ -12,12 +12,15 @@ draft: true
 	- [ ] italic
 	- [ ] Headings
 - [ ] See if you can customize grouping on the folder page
-### Before Publish
 ## Doing
-- [ ] Go live. 
-	- [ ] Swap domain
-	- [ ] pause & update RSS
+- [ ] Where is the Quartz banner on the RSS coming from?
+- [ ] Collapse TOC on mobile
+- [ ] Fix PDW Animations
+- [ ] Make the WSaM Feature logo better
 ## Done
+- [x] Go live. 
+	- [x] Swap domain
+	- [x] pause & update RSS
 - [x] 🔥 Test RSS feed in Mailchimp
 	- [x] wait a day or so, post fake new blog
 	- [x] Need to publish to the web

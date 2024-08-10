@@ -9,13 +9,12 @@ Hi. I'm Aaron. Welcome to my website. I'm glad you're here.
 
 I write and create things to entertain and inform... mostly myself. I don't sell anything. I'm not here to make money. I'm here to enjoy myself; and I hope you do too. See what I'm up to [[Now]].
 
-> [!success] Current Column → [[458]]
+> [!success] Current Column → [[459]]
 # Main Attractions
-[[home-feature-podcast.png]]
 %%this works on Quartz%%
 %%also comments are properly filtered out on Quartz. Nice.%%
 <div style='display:grid; grid-template-columns: 1fr 1fr 1fr'>
-	<a href="/Pages/About">
+	<a href="/Columns">
 		<img src="./assets/home-feature-column.png"/>
 		<div class="feature-head">The Column</div>
 	</a>

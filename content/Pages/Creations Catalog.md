@@ -2,7 +2,7 @@
 enableToc: true
 date: 2024-07-25
 ---
-The creations catalog. An incomplete list of things I’ve made that I felt like sharing. Art. Coding projects. Writing. Whatever.
+- The creations catalog. An incomplete list of things I’ve made that I felt like sharing. Art. Coding projects. Writing. Whatever.
 # 2024
 ## ![[Brief Mystery]]
 ## ![[Jacked Giraffe]]
