@@ -8,7 +8,7 @@ I am currently working on these things…
 ## Living
 First things first, enjoying the prime of my life.
 ## 75 Hard
-Doing a 75 Hard is consuming much of my free time lately.
+Doing a 75 Hard is consuming much of my free time.
 ## Semantic Canvas v1.2
 Adding lots of neat-but-obvious features that will make the [[Semantic Canvas]] plugin more useful. 
 ## Obsidian as a PDW
