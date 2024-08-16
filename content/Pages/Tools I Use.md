@@ -4,7 +4,6 @@ permalink: tools
 tags:
   - TOOLS
 ---
-
 This page I update from time to time to reflect what tools I use to do things.
 # Physical
 
@@ -41,6 +40,7 @@ This page I update from time to time to reflect what tools I use to do things.
 - [Dell S2721QS](https://www.amazon.com/gp/product/B08DQWG3JG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1) Monitor x2 - highly recommended
 - [Logitech MX Master 3S](https://www.amazon.com/gp/product/B09KWXZ1HW/)
 - Apple's standard detached mac keyboard
+- AirPods Pro
 ### Capture Devices
 - Apple Pencil
 - Apple Smart Keyboard Folio
@@ -63,8 +63,8 @@ Infrequently used, but still around:
 - Iron plates - 45x4, 35x2, 25x2, 10x2, 5x4, 2.5x2
 - Hex dumbbells - 5 thru 35 in 5lb increments
 - Bowflex Selecttech 525 x2
-- Corner cable machine
-- Magnetic resistance rower
+- [Corner cable machine](https://www.costco.com/.product.4000212689.html)
+- [Magnetic resistance rower](https://www.costco.com/proform-pro-trainer-500%3b-rower-with-5%e2%80%9d-display%2c-built-in-tablet-holder-and-spacesaver-design.product.4000231464.html) 
 - 8 horse stall mats
 - Pull-up bar - homemade, using floor joists and 1inch steel pipe
 # Digital
@@ -145,7 +145,6 @@ Infrequently used, but still around:
 # Archive/Out-of-Use Tools
 
 ![[tools-archive.png]]
-
 - Chromebook Plus - fully replaced by the iPad Pro
 - iPhone 11 → upgraded
 - Apple Watch Gen 1 → upgraded

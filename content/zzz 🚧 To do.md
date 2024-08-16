@@ -12,6 +12,7 @@ draft: true
 	- [ ] italic
 	- [ ] Headings
 - [ ] See if you can customize grouping on the folder page
+- [ ] Can you make a custom ports component that simply changes the URL to be one less or greater
 ## Doing
 - [ ] Where is the Quartz banner on the RSS coming from?
 - [ ] Collapse TOC on mobile
