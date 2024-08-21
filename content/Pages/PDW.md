@@ -137,7 +137,7 @@ Here’s a surface-level(-ish) description of how this all works.
 > [!caution] Note:
 > I recommend **not** doing this. Do the “If you’re a bit more serious” thing from above. This represents several orders of magnitude harder challenge, and in the end you’ll end up with a result that’s probably no better than a good spreadsheet.
 
-### Data Structure
+### Canonical Data Structure
 
 This is the heart of it all. The canonical data structure upon which the library operates. Here’s a graph describing the data in the system.
 
