@@ -1,6 +1,6 @@
 ---
 date: 2024-07-22
-permalink: PDW
+permalink: pdw
 ---
 I have maintained a life-tracking project since 2013. If you’re interested in that, this page is for you. Hopefully it will answer your questions.
 
@@ -10,7 +10,7 @@ I did this, which means you could do it too.
 
 # What
 
-The Personal Data Warehouse[1](https://aarongilly.com/pdw/#fn:1) is a system I built to help me keep track of stuff that happens in my life. It is a time-indexed ledger of anything I want to keep track of and measure. It is the low-friction system of inputs, storage location(s), and query/reporting mechanisms that allow me to capture and interact with any time-bound data that might seem interesting. It’s a web app, code library & some plugins, few dozen Siri Shortcuts, some IFTTT Applets, some data structures, a couple of Scriptable scripts, and a few microservices I built. It enables automated data inputs from anything that can generate arbitrary web requests, manual inputs through a web interface or bulk file imports. It provides structured data via my own home-grown API to access, collate, and ultimately benefit from all the entries it houses. It’s nothing more than you could do with spreadsheets, but it’s mine[2](https://aarongilly.com/pdw/#fn:2).
+The Personal Data Warehouse[^1] is a system I built to help me keep track of stuff that happens in my life. It is a time-indexed ledger of anything I want to keep track of and measure. It is the low-friction system of inputs, storage location(s), and query/reporting mechanisms that allow me to capture, retain, and interact with any time-bound data that might seem interesting. It’s a web app, code library & some plugins, few dozen Siri Shortcuts, some IFTTT Applets, some data structures, a couple of Scriptable scripts, and a few microservices I built. It enables automated data inputs from anything that can generate arbitrary web requests, manual inputs through a web interface or bulk file imports. It provides structured data via my own home-grown API to access, collate, and ultimately benefit from all the entries it houses. It’s nothing more than you could do with spreadsheets[^2], but it’s mine.
 
 This loop shows an overview of what I tracked over the years:
 
@@ -58,13 +58,13 @@ There are a bunch of reasons “why”…
 
 # How
 
-This is why I made this page at all. This is what separates this page from my [5 year](https://aarongilly.com/339/), [7 year](https://aarongilly.com/391/), and [10 year](https://aarongilly.com/444/) retrospectives on the project.
+This is why I made this page at all. This is what separates this page from my [5 year](339), [7 year](391), and [10 year](444) retrospectives on the project.
 
 If even one person benefits from reading this I will be very pleased.
 
 I am going to cover how my thing works, but also how I’d recommend someone who’s interested in this concept get started.
 
-**Spoilers:** I don’t recommend doing everything I’ve done. There’s a strong argument to make the system is _worse_ now than when it was all one fancy spreadsheet. There’s a sweet spot and I passed it.
+**Spoilers:** I don’t recommend doing everything I’ve done. There’s a strong argument to make the system is _worse_ now than when it was all one fancy spreadsheet. There’s a sweet spot and I passed it[^3].
 
 ## How I’d Recommend Tracking
 
@@ -205,7 +205,7 @@ Short of sharing the actual code, here’s a graphic! [If you prefer, here’s 
 
 ### How Data are Tracked
 
-The vast majority of data input into my system are being transmitted in via HTTP POST requests made by the Shortcuts app on my iPhone, iPad, and/or Mac. I have one shortcut per type of data that I track, all of those shortcuts point toward a common “PDW Set Entry” shortcut[3](https://aarongilly.com/pdw/#fn:3).
+The vast majority of data input into my system are being transmitted in via HTTP POST requests made by the Shortcuts app on my iPhone, iPad, and/or Mac. I have one shortcut per type of data that I track, all of those shortcuts point toward a common “PDW Set Entry” shortcut[^4].
 
 ![[pdw-siri-shortcuts.jpg]]
 
@@ -266,8 +266,10 @@ Here’s an incomplete list of the technical things I’ve learned thanks to thi
     - Documentation
     - Designing & packaging plugins
 
-1. Formerly known as Data Journal. Formerly known as Life Tracker. Formerly known as Demetri List. [↩](https://aarongilly.com/pdw/#fnref:1)
+[^1]: Formerly known as Data Journal. Formerly known as Life Tracker. Formerly known as Demetri List.
     
-2. I’d argue that 90% of all apps aren’t anything you couldn’t do with spreadsheets. Spreadsheets rock. [↩](https://aarongilly.com/pdw/#fnref:2)
+[^2]:I’d argue that 90% of all apps aren’t anything you couldn’t do with spreadsheets. Spreadsheets rock.
+
+[^3]: Here it would be natural to ask "if there's a sweet spot and you passed it, why not stop, go back, and remain there?" That's what I would do if the whole purpose of the PDW for me *was* as simple as "capture, retain, and interact with data". In reality for me it is those things **plus** a phenomenal technical playground. A place to try out new techniques I learn with regard to coding, system design/architecture, and documentation.
     
-3. Highly recommend if you’re doing this to have a single “write to the tracker” shortcut that all the other shortcuts call. Originally every shortcut had its own “send to the cloud” step… then I changed the logic in the cloud and I had to change ~30 shortcuts individually. I switched them all to point towards a common “middleware”, which then handled security stuff, then the middleware points to the “Set Entry” shortcut which actually writes data to the cloud via the _“Get contents of URL”_ shortcut action. [↩](https://aarongilly.com/pdw/#fnref:3)
+[^4]: Highly recommend if you’re doing this to have a single “write to the tracker” shortcut that all the other shortcuts call. Originally every shortcut had its own “send to the cloud” step… then I changed the logic in the cloud and I had to change ~30 shortcuts individually. I switched them all to point towards a common “middleware”, which then handled security stuff, then the middleware points to the “Set Entry” shortcut which actually writes data to the cloud via the _“Get contents of URL”_ shortcut action.
