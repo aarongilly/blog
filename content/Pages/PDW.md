@@ -88,11 +88,11 @@ This is the best place to start. Don’t jump in and try to perfect things out t
 
 ### Once You’re a Bit More Serious
 
-If you decide to get a bit more serious about it, the best bang for your buck toolset is **Google Sheets + Google Apps Script** _(Google’s macro-like scripting engine behind Google’s productivity suite)_. It’s been the best tool for the past 9 years, and has only gotten _stronger_ since I started using it.
+If you decide to get a bit more serious about it, the best bang for your buck toolset is **Google Sheets + Google Apps Script** _(the macro-like scripting engine behind Google’s productivity suite)_. It’s been the best tool for the past 9 years, and has only gotten _stronger_ since I started using it.
 
-I recommend creating a single Master Workbook, setting up one sheet per each level of granularity you care to track. At a minimum I’d recommend `Daily`, `Weekly`, `Monthly`, and `Yearly` sheets. Each row in these sheets corresponds to one period of time. Create columns for each type of data you want to track in whatever sheet it belongs in. Create a Google Apps Script [like this one](https://gist.github.com/aarongilly/78e9ea6380d1bdb3b3d23abf52b3f3e4), and set up a nightly Trigger that auto-generate rows for you each day/week/month/year. This is a relatively simple process that makes the whole thing much less tedious.
+I recommend creating a single Master Workbook, setting up one sheet per each level of granularity you care to track. At a minimum I’d recommend `Daily`, `Weekly`, `Monthly`, and `Yearly` sheets. Each row in these sheets corresponds to one period of time. Create columns for each type of data you want to track in whatever sheet it belongs in. Create additional columns with formulas in them that aggregate data from the lower-level sheets. Create a Google Apps Script [like this one](https://gist.github.com/aarongilly/78e9ea6380d1bdb3b3d23abf52b3f3e4), and set up a nightly Trigger that auto-generate rows for you each day/week/month/year. This is a relatively simple process that makes the whole thing much less tedious.
 
-If you decide some things you want to track don’t natively correspond well on a 1:1 basis with any given period, then you have a decision to make. For example - you want to track the names of movies you watch, but you might watch 2 or more movies in any given day. You can do one of 3 things:
+If you decide some things you want to track more frequently than "once/day", then you have a decision to make. For example - you want to track the names of movies you watch, but you might watch 2 or more movies in any given day. You can do one of 3 things:
 
 1. Figure out a way to put the multiple entries into a single cell (use your own delimiter scheme)
 2. Create one sheet per type of thing you want to track, then add the data in new rows there

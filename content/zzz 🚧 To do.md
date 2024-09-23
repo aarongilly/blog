@@ -16,9 +16,9 @@ draft: true
 ## Doing
 - [ ] Where is the Quartz banner on the RSS coming from?
 - [ ] Collapse TOC on mobile
-- [ ] Fix PDW Animations
-- [ ] Make the WSaM Feature logo better
 ## Done
+- [x] Fix PDW Animations
+- [x] Make the WSaM Feature logo better
 - [x] Go live. 
 	- [x] Swap domain
 	- [x] pause & update RSS
