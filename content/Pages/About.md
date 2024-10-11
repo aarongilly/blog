@@ -9,7 +9,7 @@ I’m Aaron Gillespie. I’m the tall guy in that picture down there. This websi
 Written by [[#Me]], primarily to host [[#The Column]], but also to serve as my “main” presence on the web[^1] & host some other things (e.g. [[Tools I Use]] & [[Now]]).  
 ### The Column
 ![[home-feature-column.png]]
-“The Column” is my blog. It is the headlining feature of this website. It has existed in one form or another for most of the past two decades, from a “The Column” section of the Xanga page for a band the I was in for 3 weeks in middle school, to a WordPress page hosted by a friend, to a Tumblr right after college, to Blogger past 7 years, and now on GitHub Pages. I write the Column because I enjoy writing. If you enjoy any portion of reading it, that’s a happy side effect. Columns cover whatever topic I feel like writing about at the time. As such, their content is usually contemporaneous to the time and always informal.
+“The Column” is my blog. It is the headlining feature of this website. It has existed in one form or another for the past two decades, from a “The Column” section of the Xanga page for a band the I was in for 3 weeks in middle school, to a WordPress page hosted by a friend, to a Tumblr, to Blogger for 7 years, and now on GitHub Pages. I write the Column because I enjoy writing. If you enjoy any portion of reading it, that’s a happy side effect. Columns cover whatever topic I feel like writing about at the time. As such, their content is usually contemporaneous to the time and always informal.
 ### Creations
 ![[home-feature-creations.png]]
 
@@ -22,7 +22,7 @@ My [[Now]] page is a [now page](https://sive.rs/nowff).
 This is not my only website.
 ### Gillespedia
 ![[home-feature-notes.png]]
-[Gillespedia](https://gillespedia.com) is a public-facing version of [my notes](https://gillespedia.com/My+Notes). It's a cache of >1500 [evergreen](https://gillespedia.com/Evergreen+Notes) and [atomic](https://gillespedia.com/Atomic+Notes) notes in an [Obsidian](https://gillespedia.com/Obsidian)-based [slip-box](https://gillespedia.com/Slip-Box+Method). 
+[Gillespedia](https://gillespedia.com) is a public-facing version of [my notes](https://gillespedia.com/My+Notes). It's a cache of >1700 [evergreen](https://gillespedia.com/Evergreen+Notes) and [atomic](https://gillespedia.com/Atomic+Notes) notes in an [Obsidian](https://gillespedia.com/Obsidian)-based [slip-box](https://gillespedia.com/Slip-Box+Method). 
 
 Similar to this website, everything there is written by me using Obsidian. Unlike this blog (which uses [Quartz publishing](https://gillespedia.com/Quartz+Publishing), lightly modified), I'm using Obsidian's native publish method for Gillespedia.
 ### Aaron’s Puzzles

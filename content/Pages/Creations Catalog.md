@@ -4,11 +4,11 @@ date: 2024-07-25
 ---
 - The creations catalog. An incomplete list of things I’ve made that I felt like sharing. Art. Coding projects. Writing. Whatever.
 # 2024
+## ![[Semantic Canvas 1.2]]
 ## ![[Brief Mystery]]
 ## ![[Jacked Giraffe]]
 ## ![[Pixel Art Self Portrait]]
-![[Semantic Canvas]]
-
+## ![[Semantic Canvas]]
 
 ## Master Bath Remodel
 Demo & rebuild.

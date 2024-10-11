@@ -3,7 +3,6 @@ date: 2024-07-22
 permalink: pdw
 ---
 I have maintained a life-tracking project since 2013. If you’re interested in that, this page is for you. Hopefully it will answer your questions.
-
 # Who
 
 I did this, which means you could do it too.
