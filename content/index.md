@@ -9,7 +9,7 @@ Hi. I'm Aaron. Welcome to my website. I'm glad you're here.
 
 I write and create things to entertain and inform... mostly myself. I don't sell anything. I'm experimenting with a couple of ads, but mostly I'm here to enjoy myself; and I hope you do too. See what I'm up to [[Now]].
 
-> [!success] Current Column → [[461]]
+> [!success] Current Column → [[462]]
 # Main Attractions
 %%this works on Quartz%%
 %%also comments are properly filtered out on Quartz. Nice.%%
