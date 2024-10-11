@@ -1,3 +1,6 @@
+---
+date: 2024-10-10
+---
 I am not personally knowingly collecting anything about any individual who simply navigates my blog, however because I'm using Google AdSense they collect some forms of information about you and use cookies to better enable their ad services. This requires me to include a privacy policy on this site.
 
 **Privacy Policy**
