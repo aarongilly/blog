@@ -3,6 +3,7 @@ date: 2024-07-25
 permalink: tools
 tags:
   - TOOLS
+  - page
 ---
 This page I update from time to time to reflect what tools I use to do things.
 # Physical

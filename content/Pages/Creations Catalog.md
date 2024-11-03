@@ -1,6 +1,8 @@
 ---
 enableToc: true
 date: 2024-07-25
+tags:
+  - page
 ---
 - The creations catalog. An incomplete list of things I’ve made that I felt like sharing. Art. Coding projects. Writing. Whatever.
 # 2024

@@ -1,13 +1,13 @@
 ---
 date: 2024-07-22
-permalink: pdw
 tags:
   - page
 draft: true
 ---
-I have maintained a life-tracking project since 2013. If you’re interested in that, this page is for you. Hopefully it will answer your questions.
+> [!tip] Note to Self
+> You marked this as draft so it would no longer be posted. It's not been replaced
 
-Page completely re-tooled in October, 2024.
+I have maintained a life-tracking project since 2013. If you’re interested in that, this page is for you. Hopefully it will answer your questions.
 # Who
 
 I did this, which means you could do it too.
@@ -67,6 +67,9 @@ This is why I made this page at all. This is what separates this page from my [
 If even one person benefits from reading this I will be very pleased.
 
 I am going to cover how my thing works, but also how I’d recommend someone who’s interested in this concept get started.
+
+**Spoilers:** I don’t recommend doing everything I’ve done. There’s a strong argument to make the system is _worse_ now than when it was all one fancy spreadsheet. There’s a sweet spot and I passed it[^3].
+
 ## How I’d Recommend Tracking
 
 Ask yourself: 
@@ -85,7 +88,7 @@ There are plenty of options to get you started. I’m not going to go into any o
 
 Track things to the best of your ability, either throughout the day or just at night before bed. Put it in your calendar or to-do list. Review after a month or so. Make adjustments.
 
-This is the best place to start. Don’t jump in and try to perfect things out the gate. You won’t know what’s working until you try it, so just get started with something basic. You can evolve your system from there. Don't make it complicated, because [Highly Specialized Solutions are Highly Brittle](https://gillespedia.com/Highly+Specialized+Solutions+are+Highly+Brittle).
+This is the best place to start. Don’t jump in and try to perfect things out the gate. You won’t know what’s working until you try it, so just get started with something basic. You can evolve your system from there.
 
 ### Once You’re a Bit More Serious
 
@@ -133,67 +136,89 @@ Or, if you prefer, a table:
 
 ## How I Do it Now
 
-This has completely changed as of October 2024, at the conclusion of 2+ months of refactoring.
+Here’s a surface-level(-ish) description of how this all works.
 
-#todo
-### PDW & Data Journal
-What they are and how they are different
-### Architecture
-This is a [C4 Model](https://gillespedia.com/C4+Model). See [here for more detail](https://gillespedia.com/articles/C4+Model+of+the+PDW).
-#### Context
-![[PDW_Context.png]]
+> [!caution] Note:
+> I recommend **not** doing this. Do the “If you’re a bit more serious” thing from above. This represents several orders of magnitude harder challenge, and in the end you’ll end up with a result that’s probably no better than a good spreadsheet.
 
-#### Containers
-![[PDW_Containers.png]]
+### Canonical Data Structure
 
-#### Components
-These diagrams sort of break with the prescribed C4 theme, but I think they're pretty illustrative.
-##### Core Data Structures
-![[PDW_Conceptual_Data 1.png]]
+This is the heart of it all. The canonical data structure upon which the library operates. Here’s a graph describing the data in the system.
 
-> [!example]- Example `DataJournal`
-> ```json
-> {
->   defs: [
->     {
->       _type: "TEXT",
->       _id: "WORKOUT_NAME",
->       _updated: "m2ozctj3"
->     },
->     {
->       _type: "NUMBER",
->       _id: "WORKOUT_MINUTES",
->       _updated: "m2ozctj3"
->     },
->   ],
->   entries: [
->     {
->       _id: "m2ozctj3_mzme",
->       _period: "2024-10-25T12:02:27",
->       _updated: "m2ozctjj",
->       WORKOUT_NAME: "Starting Strength A",
->       WORKOUT_MINUTES: 50,
->     },
->     {
->       _id: "m2ozctjj_09is",
->       _period: "2024-10-31T20:20:20",
->       _updated: "m2ozctjj",
->       _note: "Example showing that keys without associated Defs are okay - and including some additional pieces of metadata that aren't strictly required, this key and the two below",
->       _created: "m2ozctjj",
->       _deleted: false,
->       MY_KEY: "This key isn't contained in the Defs, but that's okay."
->     },
->   ],
-> }
-> ```
+![[pdw-erd-ish.jpg]]
 
-##### Core Processes
-![[PDW_Main_Processes.png]]
-##### Extensions
-For persisting data - *translators* are for static files, and *connectors* are for databases. 
-![[PDW_Connectors_Translators_Utilities.png]]
-### Siri Shortcuts
-Actually go into this, show how this works
+This is the ***standard interface*** for PDW data - but this does **not** mean all data storage solutions implement this directly. It is the middle ground. It serves to make it possible to carry data *forward* through time, in a platform-independent manner. You can always get from one data storage format to any other by way of the canonical format.
+
+![[pdw-hub-and-spoke.svg]]
+
+This is a hub-and-spoke architecture, although only one or two spokes are in use at any given time. 
+
+> [!abstract]- Full JSON Schema…
+> - [ ] to do.
+
+The data structure + a few principles work in concert with one-another to prevent data loss and conflicts.
+
+#### Principles
+1. Surrogate IDs for everything - my mind will change, surrogate IDs don't have to.
+2. Data is never actually deleted, just marked as `_deleted: true`.
+3. Data is never actually modified, old versions are marked deleted & new versions are created.
+4. Avoid timezones. They suck. - periods are zone-less & timestamps are in a "milliseconds since epoch" format
+
+#### Merging
+The data structure was designed to enable [idempotent](https://en.wikipedia.org/wiki/Idempotence) data merges. Basically, you can take any two datasets and slam them together without getting a bunch of duplicates or merge conflicts. You can merge two datasets over and over and will always end up with the same result.
+
+![[pdw-merge.svg]]
+That's how the algorithm works. Pretty simple. 
+### System Architecture
+
+![[pdw-top-architecture.png]]
+
+The goal is that the PDW layer in the middle never **has** to change again. I can swap out databases (or use multiple at a time) and only have to touch the Storage Connector module. Same goes for the UI. My front end is decoupled from my back end. I can use anything for either end, so long as they confirm to the interfaces standards I’ve made for myself.
+
+```mermaid
+flowchart TD
+    A("Database A")
+    H("Database B")
+subgraph "Personal Data Warehouse"
+    B("DataStore A 
+    Plugin"):::special2
+    G("DataStore B 
+    Plugin"):::special2
+    C("PDW Library"):::special
+end
+    D("UI Components")
+    F("Microservice APIs")
+
+A <--> B
+B <--> C
+C <--> F
+C <--> D
+H <--> G
+G <--> C
+
+classDef special fill:#46d
+classDef special2 fill:#8af
+
+```
+
+### Interfaces
+
+Short of sharing the actual code, here’s a graphic! [If you prefer, here’s the actual code](https://github.com/aarongilly/pdw/blob/master/src/pdw.ts).
+
+![[pdw-layers.jpg]]
+
+### How Data are Tracked
+
+The vast majority of data input into my system are being transmitted in via HTTP POST requests made by the Shortcuts app on my iPhone, iPad, and/or Mac. I have one shortcut per type of data that I track, all of those shortcuts point toward a common “PDW Set Entry” shortcut[^4].
+
+![[pdw-siri-shortcuts.jpg]]
+
+This allows me to write data to the cloud using a couple taps from my home screen, using my voice “hey siri, track energy drink”, from my mac or iPad using my keyboard, and via automations set up in the Shortcuts app. I have automations that auto-track my location at 3:30AM, that track my location every time “Driving Mode” turns on, and one that grabs the day’s weather forecast and writes that to my PDW - all "for free" happening in the background without me needing to do anything.
+
+I also created a fully custom website using SvelteKit, Tailwind, Vercel, and Firebase. This website is what Siri is sending the web requests to, but it’s also a place where I can write data - either entry-by-entry or via bulk CSV import.
+
+![[pdw-web-ui.png]]
+
 # Conclusion
 
 Making the PDW was (and still is) a continual process of learning, refinement, and optimization. Using it did all those same things when it came to my lifestyle. It has been my 4th best constant companion for the past many years. If I hadn’t had such a good reason to learn all these things, I reckon it would have never happened.

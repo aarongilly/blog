@@ -1,5 +1,7 @@
 ---
 date: 2024-08-22
+tags:
+  - page
 ---
 Most Columns are fine. These ones were good.
 

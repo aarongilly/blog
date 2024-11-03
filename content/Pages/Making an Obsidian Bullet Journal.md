@@ -1,3 +1,8 @@
+---
+date: 2024-10-11
+tags:
+  - page
+---
 > [!warning] Unfinished
 > This page is unfinished. So long as this box is here some amount of the content below is incomplete.
 
@@ -90,7 +95,7 @@ PARA stands for "Projects, Areas, Resources, & Archives". It's a tool-independen
 Now that I've found a system in Obsidian that works for me on a hour-by-hour basis, being able to link directly into project pages and project-related materials is valuable. So I'm in the process of migrating over Notion-based project & tasks database to something that can live in Obsidian. Resources from PARA and Collections from bullet journaling are essentially the same thing, so that's *already* covered. Having "Area" pages is also nice for organizing the rest of the vault. I decided on areas simply being tags (employing Obsidian's hierarchical tagging capability, all my area tags look like "\#area/health" or "\#area/family"). Thus the actual *page* for each area is just a dataview query for that tag. 
 
 # Obsidian + PDW = Success?
-I'm actively in the process of migrating my [[PDW]] to an Obsidian-based system. Ever since v10 of the PDW -  Like all PDW-related stuff since the epoch of v10, this does not mean abandoning old codebases. The [[PDW#Canonical Data Structure]] will remain intact, but translations via an Obsidian DataStore Connector will make it feel native to Obsidian.
+I'm actively in the process of migrating my [[PDW]] to an Obsidian-based system. Ever since v10 of the PDW -  Like all PDW-related stuff since the epoch of v10, this does not mean abandoning old codebases. The Canonical Data Structure will remain intact, but translations via an Obsidian DataStore Connector will make it feel native to Obsidian.
 
 - [ ] fill this in more later, too
 ## Data Move: Obsidian → PDW

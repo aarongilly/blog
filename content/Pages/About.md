@@ -1,5 +1,7 @@
 ---
 date: 2024-02-02
+tags:
+  - page
 ---
 ## Me
 I’m Aaron Gillespie. I’m the tall guy in that picture down there. This website is my internet-facing presence. I maintain it for fun and to keep myself producing [[Creations Catalog|creative content]]. I’m a married father of two. I am an Electrical Engineer by education, but have spent more energy learning to code and build things since my graduation from college. I’m an advocate of self-tracking, making life fun, and getting things done.
