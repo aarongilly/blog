@@ -74,21 +74,22 @@ Infrequently used, but still around:
 
 ![[tools-development.png]]
 
-- HTML/CSS/JavaScript
-- [Svelte & SvelteKit](https://svelte.dev)
-- [NodeJS](https://nodejs.dev/) + [Express](https://expressjs.com/)
-- [Vite](https://vitejs.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Svelte](https://svelte.dev/) & SvelteKit
-- [TypeDoc](https://typedoc.org/)
-- Firebase (Firestore and Functions)
-- Vercel
-- Cloudflare
-- Google Apps Script + Google Sheets
-- Visual Basic for Applications + Excel
-- PlantUML & [MermaidJS](http://mermaid.js.org/)
-- [DrawIO](https://www.drawio.com/) and [Excalidraw](https://excalidraw.com/)
-- [Quartz](https://quartz.jzhao.xyz) - static site generator for Obsidian
+- My primary "stack"
+	- [Svelte & SvelteKit](https://svelte.dev)
+	- [Tailwind](https://tailwindcss.com/)
+	- [TypeScript](https://www.typescriptlang.org/)
+- Tooling
+	- [Vite](https://vitejs.dev/)
+	- [TypeDoc](https://typedoc.org/)
+- Cloud stuff
+	- Firebase (Firestore and Functions)
+	- Vercel - hosting my puzzle box website
+	- Cloudflare - hosting this blog
+	- Google Apps Script + Google Sheets
+- Other tools
+	- PlantUML & [MermaidJS](http://mermaid.js.org/)
+	- [DrawIO](https://www.drawio.com/) and [Excalidraw](https://excalidraw.com/)
+	- [Quartz](https://quartz.jzhao.xyz) - static site generator for Obsidian
 
 ## Software & Apps
 
@@ -136,11 +137,13 @@ Infrequently used, but still around:
 - [Working Copy](https://workingcopyapp.com/users-guide) - Git client/writing app
 - [GoodNotes 6](https://www.goodnotes.com/) - doodles, although this may be deprecated soon by...
 - [Concepts](https://apps.apple.com/app/id560586497) - doodles & drawings
+- [Pixen](https://pixenapp.com/) - pixel art editor
 - [Shortcuts](https://shortcutsgallery.com/) - lots of stuff, but mainly Lifeline Journal inputs
 - [Data Jar](https://datajar.app/) - iOS Shortcuts enhancer
 - [Monarch](https://www.monarchmoney.com/) - money tracking
 - [Hevy](https://www.hevyapp.com) - weightlifting app of choice
 - [Scriptable](https://scriptable.app/) - iOS Shortcuts enhancer, better integrates Lifeline Journal & iOS
+- [Pythonista](https://apps.apple.com/us/app/pythonista-3/id1085978097) - also a shortcuts enhancer, and other stuff
 - [Ferrite Pro](https://apps.apple.com/us/app/ferrite-recording-studio/id1018780185) - spoken audio editor
 - Some Subset of: YouTube, Netflix, Hulu, HBO Max, Disney+, Paramount +, Peacock, Amazon Prime, Apple TV+
 # Archive/Out-of-Use Tools

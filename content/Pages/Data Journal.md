@@ -10,15 +10,17 @@ Data Journal is the latest iteration of my long-running quantified self project.
 > - Data Journal is a set of data shapes (i.e. regular objects) & tools for operating on them
 > - A `DataJournal` is comprised of arrays of `Entry`s and `Def`s, where:
 > 	- A `Def` is a definition of a known key/value pair that may exist on `Entry`s
-> 	- An `Entry` is an event that happened, containing zero-to-many keys/value pairs described by `Def`s
-> - `DataJournal`s can be *merged* or *modified* (via `transaction`s) without duplication 
-> - `DataJournal`s can be *queried*
+> 	- An `Entry` is an event that happened in a give time period, containing zero-to-many keys/value pairs described by `Def`s
+> - `DataJournal`s can be:
+> 	- *merged* together without duplication
+> 	- *modified* (via `transaction`s)
+> 	- *queried* (via `query`s)
 > - The [[PDW]] is a system for managing multiple `DataJournal`s, stored across disparate databases and/or files 
 
 ## A few more details:
 - The Data Journal code is not class-oriented.
-	- No "instances of class" are required, everything is based on regular objects
 	- All data shapes can be serialized to and parsed from JSON without data loss
+	- No "instances of class" are required, everything is based on regular objects
 	- Classes are used as namespaces for related functions
 - A `DataJournal` is comprised of an array of `Entry`s and an array of `Def`s
 	- Metadata properties of elements (i.e. `Entry`s and `Def`s) start with an underscore
@@ -49,4 +51,11 @@ Data Journal is the latest iteration of my long-running quantified self project.
 	- A `Query` is an object full of `Entry`-filtering parameters
 - Other utility classes operating on `DataJournal`s **do exist**, but are decoupled from each other and the Data Journal code does not depend on them.
 	- Examples: `Summarizer`, `Validator`, `Overviewer`, `Aliaser`, and a host of `Translator`s and `Connector`s which allow for reading/writing from static files and databases, respectively
- ![[PDW_Conceptual_Data.png]]
+## Main Concepts via Picture
+ 
+### Data Shapes 
+![[PDW_Conceptual_Data.png]]
+### Main Processes
+![[PDW_Main_Processes.png]]
+### Connectors, Translators, & Utilities
+![[PDW_Connectors_Translators_Utilities.png]]
