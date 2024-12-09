@@ -8,7 +8,7 @@ tags:
 This page I update from time to time to reflect what tools I use to do things.
 # Physical
 
-## Wood shop
+## Shop
 
 ![[tools-workbenches.png]]
 
@@ -34,8 +34,7 @@ This page I update from time to time to reflect what tools I use to do things.
 ### Computers
 - iPad Pro 12.9 (4th Gen)
 - iPhone 14 Pro
-- Mac Mini 2023
-- Windows Desktop (custom build, aging)
+- Mac Mini M4 2024
 - Synology NAS DiskStation DS920+
 ### Peripherals
 - [Dell S2721QS](https://www.amazon.com/gp/product/B08DQWG3JG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1) Monitor x2 - highly recommended
@@ -74,7 +73,7 @@ Infrequently used, but still around:
 
 ![[tools-development.png]]
 
-- My primary "stack"
+- Primary Stack
 	- [Svelte & SvelteKit](https://svelte.dev)
 	- [Tailwind](https://tailwindcss.com/)
 	- [TypeScript](https://www.typescriptlang.org/)
@@ -98,7 +97,7 @@ Infrequently used, but still around:
 ### All Platforms / Cloud
 
 - [Gmail](http://gmail.com)/[Google Calendar](http://calendar.google.com) - email and calendar
-- [Notion](http://notion.so) - life management
+- [Notion](http://notion.so) - life management, although less and less lately
 - [Obsidian](https://obsidian.md) - notes & writing, increasingly more things
 - [Jump Desktop](https://jumpdesktop.com/) - remote desktop client
 - [Plex](http://plex.tv) - personal media library
@@ -116,7 +115,13 @@ Infrequently used, but still around:
 - [Pocket](http://getpocket.com) - online article collection & reading
 - [Tesla](https://apps.apple.com/us/app/tesla/id582007913) - car stuff
 - [Pixen](https://pixenapp.com/) - pixel art & animation
-### Windows 10 &/or MacOS
+- [Monarch](https://www.monarchmoney.com/) - money tracking
+- [Shortcuts](https://shortcutsgallery.com/) - lots of stuff, but mainly Lifeline Journal inputs
+- Apple's Reminders app - location-based reminders and as an inbox
+- Apple’s Calendar app
+- Apple's Mail app
+- Some Subset of: YouTube, Netflix, Hulu, HBO Max, Disney+, Paramount +, Peacock, Amazon Prime, Apple TV+
+### MacOS
 
 - [Visual Studio Code](https://code.visualstudio.com/) - coding
 - [Handbrake](http://handbrake.fr) - video transcoding
@@ -128,27 +133,22 @@ Infrequently used, but still around:
 
 ### iOS and iPadOS
 
-- Apple's Reminders app - location-based reminders and as an inbox
-- Apple’s Calendar app
-- Apple's Mail app
 - [Streaks](http://streaksapp.com) - habit tracking
 - [Procreate](https://procreate.art/) - making drawings & comics
 - [Procreate Dreams](https://procreate.com/dreams) - animations
 - [Working Copy](https://workingcopyapp.com/users-guide) - Git client/writing app
 - [GoodNotes 6](https://www.goodnotes.com/) - doodles, although this may be deprecated soon by...
 - [Concepts](https://apps.apple.com/app/id560586497) - doodles & drawings
-- [Pixen](https://pixenapp.com/) - pixel art editor
-- [Shortcuts](https://shortcutsgallery.com/) - lots of stuff, but mainly Lifeline Journal inputs
 - [Data Jar](https://datajar.app/) - iOS Shortcuts enhancer
-- [Monarch](https://www.monarchmoney.com/) - money tracking
 - [Hevy](https://www.hevyapp.com) - weightlifting app of choice
 - [Scriptable](https://scriptable.app/) - iOS Shortcuts enhancer, better integrates Lifeline Journal & iOS
 - [Pythonista](https://apps.apple.com/us/app/pythonista-3/id1085978097) - also a shortcuts enhancer, and other stuff
 - [Ferrite Pro](https://apps.apple.com/us/app/ferrite-recording-studio/id1018780185) - spoken audio editor
-- Some Subset of: YouTube, Netflix, Hulu, HBO Max, Disney+, Paramount +, Peacock, Amazon Prime, Apple TV+
 # Archive/Out-of-Use Tools
 
 ![[tools-archive.png]]
+- Windows Desktop - haven't touched in months
+- Several Raspberry Pis - haven't touched in months
 - Chromebook Plus - fully replaced by the iPad Pro
 - iPhone 11 → upgraded
 - Apple Watch Gen 1 → upgraded

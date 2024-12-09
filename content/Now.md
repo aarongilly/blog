@@ -9,9 +9,13 @@ Last affirmed **2024-11-12**.
 
 ## Living
 First things first, enjoying the prime of my life.
+## Data Journal 11
+The re^10 build of my life tracking system. Radically & fundamentally re-shifting to consolidate around **one** single Google Sheet + Apps Script project.
 ## Puzzle Box
 Designing & building a 2024 Puzzle Box - “Brief Mystery”
 ![[creations-brief-mystery.svg]]
 # On Deck/On Hold
-## PDW 2.0
-The Personal Data Warehouse is undergoing a large codebase refactor. Messing with Obsidian-as-a-PDW made me want to redo the PDW altogether.
+## Playdate Development
+I may try my hand at making a game for the Playdate
+## College!
+Starting soon.

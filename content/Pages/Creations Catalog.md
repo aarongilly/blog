@@ -18,7 +18,7 @@ Demo & rebuild.
 # 2023
 ## ![[Cookie Jar]]
 ## ![[We Scene a Movie]]
-## ![[Personal Data Warehouse v11.0]]
+## ![[Personal Data Warehouse v10.0]]
 
 # 2022
 ## ![[The Vault]]
