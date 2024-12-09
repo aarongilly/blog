@@ -5,7 +5,7 @@ date: 2024-07-26
 ---
 ![[index-me-in-crowd.png]]
 
-Hi. I'm Aaron. Welcome to my website. I'm glad you're here. Temp.
+Hi. I'm Aaron. Welcome to my website. I'm glad you're here.
 
 I write and create things to entertain… and inform... mostly myself. I don't sell anything. I'm not here to make money. I don't sell anything. I'm here to enjoy myself; and I hope you do too. See what I'm up to [[Now]].
 
@@ -38,8 +38,8 @@ I write and create things to entertain… and inform... mostly myself. I don't s
 		<img src="./assets/home-feature-creations.png"/>
 		<div class="feature-head">Creations</div>
 	</a>
-	<a href="/Pages/PDW">
+	<a href="/Pages/Data-Journal">
 		<img src="./assets/home-feature-pdw.png"/>
-		<div class="feature-head">Personal Data Warehouse</div>
+		<div class="feature-head">Data Journal</div>
 	</a>
 </div>
