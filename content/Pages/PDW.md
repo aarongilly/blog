@@ -5,4 +5,4 @@ tags:
   - page
 draft: false
 ---
-Moved to [[Data Journal]].
+Moved to [[DJ]].

@@ -38,7 +38,7 @@ I write and create things to entertain… and inform... mostly myself. I don't s
 		<img src="./assets/home-feature-creations.png"/>
 		<div class="feature-head">Creations</div>
 	</a>
-	<a href="/Pages/Data-Journal">
+	<a href="/Pages/DJ">
 		<img src="./assets/home-feature-pdw.png"/>
 		<div class="feature-head">Data Journal</div>
 	</a>
