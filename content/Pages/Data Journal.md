@@ -14,7 +14,7 @@ I have maintained a life-tracking project since 2013. If you’re interested in 
 
 ## Who
 
-I did this, which means you could do it too.
+I did this, which means you could do it too. 👍
 
 ## What
 
