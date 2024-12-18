@@ -120,7 +120,7 @@ After setting up the WebApp, with literally *one* action in a Siri Shortcut you 
 
 ![[DJ-Shortcut.png]]
 
-I have about a dozen Siri Shortcuts that look like that, each for inputting a specific kind of event data. Most of them I trigger using my voice or keyboard, but some are fully automated & I never trigger manually. For example - every night at 3:30am my phone sends to the Data Journal the city I am in. This "Sleep Location" metric I use to keep track of how often I'm traveling, and it happens without me doing *anything*. 
+I have about a dozen Siri Shortcuts that look like that, each for inputting a specific kind of event data. Most of them I trigger using my voice or keyboard, but some are fully automated & I never trigger manually. For example - every night at 3:30am my phone sends to the Data Journal the city I am in. This `Sleep Location` metric I use to keep track of how often I'm traveling, and it happens without me doing *anything*. 
 # Conclusion
 
 Making the Data Journal was (and still is) a continual process of learning, refinement, and optimization. Using it did all those same things when it came to my lifestyle. It has been my 4th best constant companion for the past many years. If I hadn’t had such a good reason to learn all these things, I reckon it would have never happened.
