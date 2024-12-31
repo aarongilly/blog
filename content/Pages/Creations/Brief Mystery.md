@@ -2,9 +2,9 @@
 tags:
   - tools/svelte
   - creation/puzzlebox
-date: 2024-07-25
+date: 2024-12-25
 ---
-Puzzle box & webpage.
+Puzzle box / browser-based game.
 https://www.aaronspuzzles.com/BriefMystery
 
 ![[creations-brief-mystery.svg|300]]

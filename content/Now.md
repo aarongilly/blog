@@ -9,13 +9,15 @@ Last affirmed **2024-11-12**.
 
 ## Living
 First things first, enjoying the prime of my life.
-## Data Journal 11
-The re^10 build of my life tracking system. Radically & fundamentally re-shifting to consolidate around **one** single Google Sheet + Apps Script project.
-## Puzzle Box
-Designing & building a 2024 Puzzle Box - “Brief Mystery”
-![[creations-brief-mystery.svg]]
+
+### Getting Ready for Grad School
+Starting a graduate degree shortly. Probably already doing it before I remember to update this.
+
 # On Deck/On Hold
 ## Playdate Development
-I may try my hand at making a game for the Playdate
+I may try my hand at making a game for the Playdate.
+
+### Puzzle Box 2025
+This is on the docket for the next 12 months.
 ## College!
 Starting soon.

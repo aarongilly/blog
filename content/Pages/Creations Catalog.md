@@ -13,7 +13,7 @@ tags:
 ## ![[Semantic Canvas]]
 
 ## Master Bath Remodel
-Demo & rebuild.
+Demo & rebuild. This was very large and difficult. I claim much credit here.
 
 # 2023
 ## ![[Cookie Jar]]
