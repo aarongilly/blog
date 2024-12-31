@@ -77,8 +77,8 @@ This list has been honed over time. I've tracked everything on this list since a
 	- Formulas summarizing all of the above
 	- `Big Event` - it seems like every year has one, they mark the passage of time
 	- `Podcast Listen Time` - Hours 
-	- YouTube View Count
-	- Puzzle Box
+	- `YouTube View Count` - per Google Takeout
+	- `Puzzle Box` - name of my annual puzzle box
 
 Looks like a lot, and it probably is, but I've made capture very easy. See [[#How I Do It]].
 
