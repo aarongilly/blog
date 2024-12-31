@@ -180,11 +180,9 @@ I have about a dozen Siri Shortcuts that look like that, each for inputting a sp
 
 This is how the system evolved over time - in *very* brief.
 
-| Date Started | Version | Description                       |
-| ------------ | ------- | --------------------------------- |
-| 4/22/2013    | v1      | Pen & Paper, transcribed to Excel |
-|              |         |                                   |
+![[Data-Journal-History.jpeg]]
 
+Versions rolled each time I changed what I was tracking... most of which *also* coincided with some form of system structure/architecture change. In general, I started tracking a little, then a lot, then way too much, back down to just a lot, and now I'm settled at a medium amount *(but probably still what you'd consider "a lot")*.
 # Conclusion
 
 Making the Data Journal was (and still is) a continual process of learning, refinement, and optimization. Using it did all those same things when it came to my lifestyle. It has been my 4th best constant companion for the past many years. If I hadn’t had such a good reason to learn all these things, I reckon it would have never happened.
