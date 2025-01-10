@@ -80,7 +80,7 @@ This list has been honed over time. I've tracked everything on this list since a
 	- `YouTube View Count` - per Google Takeout
 	- `Puzzle Box` - name of my annual puzzle box
 
-Looks like a lot, and it probably is, but I've made capture very easy. See [[#How I Do It]].
+Looks like a lot, and it probably is, but I've made capture very easy. All of the sleep-related stuff happens automatically. Everything else is primarily entered in an ad-hoc manner via Siri Shortcuts. See [[#How I Do It]].
 
 ## When
 
@@ -242,7 +242,6 @@ Here’s an incomplete list of the technical things I’ve learned thanks to thi
 	- Options & features don't deserve to exist because you thought of them
 
 [^1]: Formerly known as Data Journal. Formerly known as Life Tracker. Formerly known as Demetri List.
-    
 [^2]: From pen & paper, to a spreadsheet, to an expansive set of web apps, databases, utility functions, custom user interfaces, and translators, back to a humble spreadsheet.
 [^3]: This has privacy implications, though. By putting your life in a system then that system in the hands of some cloud-based software you've given a lot of trust to the company that runs it. You could use local files to accomplish everything I go on to describe. 
 [^4]: It's better to have blanks on days where you failed to track something that it is to just delete the row for that day. 
