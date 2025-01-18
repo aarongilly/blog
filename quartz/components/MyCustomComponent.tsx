@@ -19,7 +19,7 @@ export default ((opts?: Options) => {
                     <div>
                         <div style="display:block">
                             <h3 style='margin-top: 0em'>Aaron Gillespie</h3>
-                            <p>Husband. Father. Writer. Coder. Engineer. Purveyor of bad jokes.</p>
+                            <p>Husband. Father. Writer. Puzzle maker. Engineer. Purveyor of bad jokes.</p>
                         </div>
                     </div>
                     <div class="footer-link-box">
