@@ -31,7 +31,6 @@ export default (() => {
         )}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:title" content={title} />
-        <meta name="google-adsense-account" content="ca-pub-7345916584608657"></meta>
         <meta property="og:description" content={description} />
         {cfg.baseUrl && <meta property="og:image" content={ogImagePath} />}
         <meta property="og:width" content="1200" />
@@ -45,8 +44,6 @@ export default (() => {
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")
           .map((res) => JSResourceToScriptElement(res, true))}
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7345916584608657"
-          crossorigin="anonymous"></script>
       </head>
     )
   }
