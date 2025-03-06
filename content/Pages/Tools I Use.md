@@ -29,6 +29,8 @@ This page I update from time to time to reflect what tools I use to do things.
 - [[421|Handmade Workbenches]]
     - Table saw
     - Miter Saw
+## 3D Printing
+- Bambi Labs A1 Mini with AMS
 ## Tech
 ![[tools-phone-lineup.png]]
 ### Computers
