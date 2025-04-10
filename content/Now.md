@@ -5,7 +5,7 @@ enableToc: false
 This is a [now page](https://sive.rs/nowff).
 
 I am currently working on these things... 
-Last affirmed **2025-03-20**.
+Last affirmed **2025-04-09**.
 # Now
 ## Living
 First things first, enjoying the prime of my life. Every day. As much as possible.
@@ -22,6 +22,9 @@ This would normally be a given, in maintenance mode, but I'm exercising _in part
 - Lift
 - Yoga
 - (repeat)
+
+## Basement Improvement House Project
+Using my hands and tools to make my house better.
 
 # On Deck/On Hold
 ## Playdate Development
