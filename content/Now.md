@@ -5,26 +5,13 @@ enableToc: false
 This is a [now page](https://sive.rs/nowff).
 
 I am currently working on these things... 
-Last affirmed **2025-04-09**.
+Last affirmed **2025-006-15**.
 # Now
-## Living
-First things first, enjoying the prime of my life. Every day. As much as possible.
+## Moving
+We are changing houses & cities. This has been most of my day the past couple months.
+
 ## Grad School
 I am taking two classes and working full time and trying to stay physically active and attentive as a husband and father.
-## Exercise
-This would normally be a given, in maintenance mode, but I'm exercising _in particular_ right now. Working on stabilizing a new routine that goes:
-- Lift
-- Walk
-- Lift
-- Run
-- Lift
-- Bike
-- Lift
-- Yoga
-- (repeat)
-
-## Basement Improvement House Project
-Using my hands and tools to make my house better.
 
 # On Deck/On Hold
 ## Playdate Development
