@@ -69,6 +69,15 @@ Infrequently used, but still around:
 - [Magnetic resistance rower](https://www.costco.com/proform-pro-trainer-500%3b-rower-with-5%e2%80%9d-display%2c-built-in-tablet-holder-and-spacesaver-design.product.4000231464.html) 
 - 8 horse stall mats
 - Pull-up bar - homemade, using floor joists and 1inch steel pipe
+### Fitness Routine
+A routine feels like a choice of tool. This is what I "aim" for, but in reality I achieve maybe 60-75% of this. I try to workout every day for roughly 45 minutes to an hour, rotating through workouts like so:
+- Mon: whole body lifting
+- Tue: long slow run
+- Wed: whole body lifting
+- Thur: long slow run
+- Fri: whole body lifting
+- Sat: shorter faster run
+- Sun: yoga
 # Digital
 
 ## Development Tools
@@ -79,6 +88,9 @@ Infrequently used, but still around:
 	- [Svelte & SvelteKit](https://svelte.dev)
 	- [Tailwind](https://tailwindcss.com/)
 	- [TypeScript](https://www.typescriptlang.org/)
+- Data Science Stack
+	- Python
+	- Jupyter 
 - Tooling
 	- [Vite](https://vitejs.dev/)
 	- [TypeDoc](https://typedoc.org/)
@@ -139,7 +151,6 @@ Infrequently used, but still around:
 - [Procreate](https://procreate.art/) - making drawings & comics
 - [Procreate Dreams](https://procreate.com/dreams) - animations
 - [Working Copy](https://workingcopyapp.com/users-guide) - Git client/writing app
-- [GoodNotes 6](https://www.goodnotes.com/) - doodles, although this may be deprecated soon by...
 - [Concepts](https://apps.apple.com/app/id560586497) - doodles & drawings
 - [Data Jar](https://datajar.app/) - iOS Shortcuts enhancer
 - [Hevy](https://www.hevyapp.com) - weightlifting app of choice
@@ -157,6 +168,7 @@ Infrequently used, but still around:
 - Sony Movie Studio Platinum 15 → I replaced it with Final Cut & never liked it to begin with
 - [Wrapper-Lib](https://www.npmjs.com/package/wrapper-lib) - my own NPM Module! Replaced with Svelte
 - [Todoist](http://todoist.com) - task management → determined the native iOS Reminders app + Notion covers my task management needs
+- [GoodNotes 6](https://www.goodnotes.com/) - since their switch to the subscription model I haven't found enough reason to use them over anything else.
 - [Things 3](https://apps.apple.com/us/app/things-3/id904280696?mt=12) - task management → Same thing happened as [Todoist](https://www.notion.so/Tools-41615f02a1cf4f5e80f29261a5484579?pvs=21)
 - [Fantastical](https://apps.apple.com/us/app/fantastical-calendar/id718043190) - good app, I built my own widget that replaced what I used it for
 - Strong App → offered no Lifetime Subscription options, so I switched to Hevy, which I bought a lifetime subscription for immediately
