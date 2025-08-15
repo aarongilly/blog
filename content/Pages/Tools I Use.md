@@ -84,7 +84,7 @@ A routine feels like a choice of tool. This is what I "aim" for, but in reality 
 
 ![[tools-development.png]]
 
-- Primary Stack
+- Primary App Dev Stack
 	- [Svelte & SvelteKit](https://svelte.dev)
 	- [Tailwind](https://tailwindcss.com/)
 	- [TypeScript](https://www.typescriptlang.org/)
@@ -98,7 +98,7 @@ A routine feels like a choice of tool. This is what I "aim" for, but in reality 
 	- Firebase (Firestore and Functions)
 	- Vercel - hosting my puzzle box website
 	- Cloudflare - hosting this blog
-	- Google Apps Script + Google Sheets
+	- Google Apps Script + Google Sheets - hosting my [[PDW]]
 - Other tools
 	- PlantUML & [MermaidJS](http://mermaid.js.org/)
 	- [DrawIO](https://www.drawio.com/) and [Excalidraw](https://excalidraw.com/)
@@ -116,7 +116,7 @@ A routine feels like a choice of tool. This is what I "aim" for, but in reality 
 - [Jump Desktop](https://jumpdesktop.com/) - remote desktop client
 - [Plex](http://plex.tv) - personal media library
 - [Libby](https://www.overdrive.com/apps/libby/) - getting & reading books
-- [Spotify](http://spotify.com) - music streamer of choice
+- YouTube Music - due to it coming with the no-ads YouTube subscription 
 - [Endel](https://apps.apple.com/app/id1346247457) - generative background noise
 - [Pocketcasts](http://pocketcasts.com) - podcast application of choice
 - [Excalidraw](https://excalidraw.com) - quick digital drawings
@@ -135,6 +135,9 @@ A routine feels like a choice of tool. This is what I "aim" for, but in reality 
 - Apple’s Calendar app
 - Apple's Mail app
 - Some Subset of: YouTube, Netflix, Hulu, HBO Max, Disney+, Paramount +, Peacock, Amazon Prime, Apple TV+
+### Smart Home
+- [HomeAssistant](https://www.home-assistant.io/) - for all my smart home needs
+- Specific devices I do not plan to list here
 ### MacOS
 
 - [Visual Studio Code](https://code.visualstudio.com/) - coding
