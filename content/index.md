@@ -33,7 +33,7 @@ I write and create things to entertain… and inform... mostly myself. I don't s
 
 ## Secondary Features
 
-<div style='display:grid; grid-template-columns: 1fr 1frr'>
+<div style='display:grid; grid-template-columns: 1fr 1fr'>
 <!-- Until/if I ever have a podcast again
 	<a href="https://shows.acast.com/we-scene-a-movie">
 		<img src="./assets/home-feature-podcast.png"/>
