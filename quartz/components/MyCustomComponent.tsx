@@ -27,14 +27,14 @@ export default ((opts?: Options) => {
                             <img src="/assets/home-subscribe.svg" style="height: 1.5em; margin: 0em"></img><div style="margin-left: 0.5em">Subscribe</div>
                         </a>
                         <span class="footer-link">
-                            <img src="/assets/home-location.svg" style="height: 1.5em; margin: 0em"></img><div style="margin-left: 0.5em">Lawrence, KS</div>
+                            <img src="/assets/home-location.svg" style="height: 1.5em; margin: 0em"></img><div style="margin-left: 0.5em">Overland Park, KS</div>
                         </span>
                         <a class="footer-link" href="https://gillespedia.com">
                             <img src="/assets/home-notes.svg" style="height: 1.5em; margin: 0em"></img><div style="margin-left: 0.5em">My Notes</div>
                         </a>
-                        <a class="footer-link" href="https://shows.acast.com/we-scene-a-movie">
+                        {/* <a class="footer-link" href="https://shows.acast.com/we-scene-a-movie">
                             <img src="/assets/home-podcast.svg" style="height: 1.5em; margin: 0em"></img><div style="margin-left: 0.5em">Movie Podcast</div>
-                        </a>
+                        </a> */}
                         <a class="footer-link" href="https://aaronspuzzles.com">
                             <img src="/assets/home-puzzle.svg" style="height: 1.5em; margin: 0em"></img><div style="margin-left: 0.5em">Puzzle Boxes</div>
                         </a>
