@@ -10,7 +10,7 @@ Hi. I'm Aaron. Welcome to my website. I'm glad you're here.
 
 I write and create things to entertain… and inform... mostly myself. I don't sell anything. I'm not here to make money. I'm here to enjoy myself; and I hope you do too. See what I'm up to [[Now]].
 
-> [!success] Current Column → [[478]]
+> [!success] Current Column → [[479]]
 
 # Main Attractions
 
@@ -33,7 +33,7 @@ I write and create things to entertain… and inform... mostly myself. I don't s
 
 ## Secondary Features
 
-<div style='display:grid; grid-template-columns: 1fr 1fr'>
+<div style='display:grid; grid-template-columns: 1fr 1frr'>
 <!-- Until/if I ever have a podcast again
 	<a href="https://shows.acast.com/we-scene-a-movie">
 		<img src="./assets/home-feature-podcast.png"/>

@@ -13,9 +13,9 @@ Last affirmed **2025-10-10**.
 
 Theme is probably decided.
 
-## Home Improvement
+## Animations
 
-The new house has a lot of medium-sized upgrades to do. 
+I've been learning how to do little animations. They're neat. I'm not going to become an animator, but it's a super nice tool to have in my creative toolbelt.
 
 # On Deck/On Hold
 
