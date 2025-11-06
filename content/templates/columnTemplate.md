@@ -19,4 +19,4 @@ Topic
 
 # Quote:
 > quote
-> - <cite>quoter</cite>
+> <cite>- quoter</cite>
