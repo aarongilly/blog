@@ -1,7 +1,7 @@
 ---
 title: Home
 enableToc: false
-date: 2024-07-26
+date: 2025-12-13
 ---
 
 ![[index-me-in-crowd.png]]
@@ -10,7 +10,7 @@ Hi. I'm Aaron. Welcome to my website. I'm glad you're here.
 
 I write and create things to entertain… and inform... mostly myself. I don't sell anything. I'm not here to make money. I'm here to enjoy myself; and I hope you do too. See what I'm up to [[Now]].
 
-> [!success] Current Column → [[479]]
+> [!success] Current Column → [[480]]
 
 # Main Attractions
 

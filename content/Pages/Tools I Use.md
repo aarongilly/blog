@@ -70,7 +70,7 @@ Infrequently used, but still around:
 - 8 horse stall mats
 - Pull-up bar - homemade, using floor joists and 1inch steel pipe
 ### Fitness Routine
-A routine feels like a choice of tool. This is what I "aim" for, but in reality I achieve maybe 60-75% of this. I try to workout every day for roughly 45 minutes to an hour, rotating through workouts like so:
+A routine feels like a choice of tool. This is what I "aim" for, but in reality I achieve maybe 60-75% of this. I try to workout every day for 35 to 55 minutes, rotating through workouts like so:
 - Mon: whole body lifting
 - Tue: long slow run
 - Wed: whole body lifting
@@ -111,7 +111,6 @@ A routine feels like a choice of tool. This is what I "aim" for, but in reality 
 ### All Platforms / Cloud
 
 - [Gmail](http://gmail.com)/[Google Calendar](http://calendar.google.com) - email and calendar
-- [Notion](http://notion.so) - life management, although less and less lately
 - [Obsidian](https://obsidian.md) - notes & writing, increasingly more things
 - [Jump Desktop](https://jumpdesktop.com/) - remote desktop client
 - [Plex](http://plex.tv) - personal media library
@@ -129,6 +128,7 @@ A routine feels like a choice of tool. This is what I "aim" for, but in reality 
 - [Pocket](http://getpocket.com) - online article collection & reading
 - [Tesla](https://apps.apple.com/us/app/tesla/id582007913) - car stuff
 - [Pixen](https://pixenapp.com/) - pixel art & animation
+- [ToonSquid](https://toonsquid.com) - animation
 - [Monarch](https://www.monarchmoney.com/) - money tracking
 - [Shortcuts](https://shortcutsgallery.com/) - lots of stuff, but mainly Lifeline Journal inputs
 - Apple's Reminders app - location-based reminders and as an inbox
@@ -152,7 +152,6 @@ A routine feels like a choice of tool. This is what I "aim" for, but in reality 
 
 - [Streaks](http://streaksapp.com) - habit tracking
 - [Procreate](https://procreate.art/) - making drawings & comics
-- [Procreate Dreams](https://procreate.com/dreams) - animations
 - [Working Copy](https://workingcopyapp.com/users-guide) - Git client/writing app
 - [Concepts](https://apps.apple.com/app/id560586497) - doodles & drawings
 - [Data Jar](https://datajar.app/) - iOS Shortcuts enhancer
@@ -163,41 +162,47 @@ A routine feels like a choice of tool. This is what I "aim" for, but in reality 
 # Archive/Out-of-Use Tools
 
 ![[tools-archive.png]]
-- Windows Desktop - haven't touched in months
-- Several Raspberry Pis - haven't touched in months
-- Chromebook Plus - fully replaced by the iPad Pro
-- iPhone 11 → upgraded
-- Apple Watch Gen 1 → upgraded
-- Sony Movie Studio Platinum 15 → I replaced it with Final Cut & never liked it to begin with
-- [Wrapper-Lib](https://www.npmjs.com/package/wrapper-lib) - my own NPM Module! Replaced with Svelte
-- [Todoist](http://todoist.com) - task management → determined the native iOS Reminders app + Notion covers my task management needs
-- [GoodNotes 6](https://www.goodnotes.com/) - since their switch to the subscription model I haven't found enough reason to use them over anything else.
-- [Things 3](https://apps.apple.com/us/app/things-3/id904280696?mt=12) - task management → Same thing happened as [Todoist](https://www.notion.so/Tools-41615f02a1cf4f5e80f29261a5484579?pvs=21)
-- [Fantastical](https://apps.apple.com/us/app/fantastical-calendar/id718043190) - good app, I built my own widget that replaced what I used it for
-- Strong App → offered no Lifetime Subscription options, so I switched to Hevy, which I bought a lifetime subscription for immediately
-- [Curve](https://apps.apple.com/us/app/linearity-curve-graphic-design/id1219074514) → Nerfed their free tier to the point of being unusable
-- [LumaFusion](https://apps.apple.com/us/app/lumafusion/id1062022008) → I got Final Cut Pro
-- [IFTTT](http://ifttt.com) - automatic quantified self tracking → with their transition to a "pro" plan I decided to see what it was like to live without
-- Mint → Intuit decided to kill Mint, so I got Monarch, which is better than Mint
-- [Codepen.io](http://codepen.io) - front end development in-browser → I spin up my own local sites
-- [RescueTime](http://www.rescuetime.com) - automatic time tracking → doesn't work well enough with iOS for me to trust it
-- [Shapr3D](http://shapr3d.com) → Learning Fusion360
-- [Audacity](http://audacityteam.org) - audio recording → began using Ferrite Pro for recording
-- Axis360 → My local library finally got it and transitioned to the much better Libby
-- [Glitch](http://glitch.com) → replaced by firebase/vercel
-- React → it's been long enough since I used React I'd be relearning a lot of it
-- Bootstrap → meh
-- jQuery → who needs it anymore
-- [Bootstrap-Table](https://bootstrap-table.com/) → Recreated with my own stuff
-- MongoDB + Mongoose → replaced with Firebase
-    - [MongoDB.com](http://mongodb.com) - Mongo host
-- Toolbox Pro - iOS Shortcuts enhancer → no longer used by any active shortcuts
-- Android → switched to iOS after nearly a decade of Android devotion
-- Android Studio - no longer on Android, so no longer interested
-- Inbox by Google → killed by Google
-- Google Reader → killed by Google
-- Google Play Music → killed by Google
-- Google Tasks → killed by Google (eventually brought back, but whatever)
-- Google Fit → never grew into anything worthwhile
-- Google Keep → lacking desired functions
-- Chrome Remote Desktop → Jump is much better on the iPad
+- Hardware
+	- Windows Desktop - haven't touched in months
+	- Several Raspberry Pis - haven't touched in months
+	- iPhone 11 → upgraded
+	- Apple Watch Gen 1 → upgraded
+- Apps
+	- Sony Movie Studio Platinum 15 → I replaced it with Final Cut & never liked it to begin with
+	- [Todoist](http://todoist.com) - task management → determined the native iOS Reminders app + Notion covers my task management needs
+	- [GoodNotes 6](https://www.goodnotes.com/) - since their switch to the subscription model I haven't found enough reason to use them over anything else.
+	- [Things 3](https://apps.apple.com/us/app/things-3/id904280696?mt=12) - task management → Same thing happened as [Todoist](https://www.notion.so/Tools-41615f02a1cf4f5e80f29261a5484579?pvs=21)
+	- [Fantastical](https://apps.apple.com/us/app/fantastical-calendar/id718043190) - good app, I built my own widget that replaced what I used it for
+	- Strong App → offered no Lifetime Subscription options, so I switched to Hevy, which I bought a lifetime subscription for immediately
+	- [Curve](https://apps.apple.com/us/app/linearity-curve-graphic-design/id1219074514) → Nerfed their free tier to the point of being unusable
+	- [LumaFusion](https://apps.apple.com/us/app/lumafusion/id1062022008) → I got Final Cut Pro
+	- [IFTTT](http://ifttt.com) - automatic quantified self tracking → with their transition to a "pro" plan I decided to see what it was like to live without
+	- Mint → Intuit decided to kill Mint, so I got Monarch, which is better than Mint
+	- [Audacity](http://audacityteam.org) - audio recording → began using Ferrite Pro for recording
+	- [Notion](http://notion.so) - life management → technically still have Notion, but migrated most things to Obsidian and iOS Calendar / Reminders apps
+	- [Procreate Dreams](https://procreate.com/dreams) - animations → Replaced with the better animation app ToonSquid
+- Coding
+	- Axis360 → My local library finally got it and transitioned to the much better Libby
+	- [Shapr3D](http://shapr3d.com) → Replaced by Fusion360
+	- [RescueTime](http://www.rescuetime.com) - automatic time tracking → doesn't work well enough with iOS for me to trust it
+	- [Wrapper-Lib](https://www.npmjs.com/package/wrapper-lib) - my own NPM Module! Replaced with Svelte
+	- [Codepen.io](http://codepen.io) - front end development in-browser → I spin up my own local sites
+	- [Glitch](http://glitch.com) → replaced by firebase/vercel
+	- Toolbox Pro - iOS Shortcuts enhancer → no longer used by any active shortcuts
+	- React → it's been long enough since I used React I'd be relearning a lot of it
+	- Bootstrap → meh
+	- jQuery → who needs it anymore
+	- [Bootstrap-Table](https://bootstrap-table.com/) → Recreated with my own stuff
+	- MongoDB + Mongoose → replaced with Firebase
+	    - [MongoDB.com](http://mongodb.com) - Mongo host
+- Google Graveyard
+	- Android → switched to iOS after nearly a decade of Android devotion
+	- Chromebook Plus - fully replaced by the iPad Pro
+	- Android Studio - no longer on Android, so no longer interested
+	- Inbox by Google → killed by Google
+	- Google Reader → killed by Google
+	- Google Play Music → killed by Google
+	- Google Tasks → killed by Google (eventually brought back, but whatever)
+	- Google Fit → never grew into anything worthwhile
+	- Google Keep → lacking desired functions
+	- Chrome Remote Desktop → Jump is much better on the iPad
