@@ -5,17 +5,17 @@ enableToc: false
 This is a [now page](https://sive.rs/nowff).
 
 I am currently working on these things... 
-Last affirmed **2025-10-10**.
+Last affirmed **2025-12-22**.
 
 # Now
 
-## Puzzle Box 2025
+## Enjoying the Holidays
 
-Theme is probably decided.
+## Doing Some House Projects
 
-## Animations
+## Pandora's Box V2
 
-I've been learning how to do little animations. They're neat. I'm not going to become an animator, but it's a super nice tool to have in my creative toolbelt.
+Making an easier to produce version of my puzzle box from last year.
 
 # On Deck/On Hold
 

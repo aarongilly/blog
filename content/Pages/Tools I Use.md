@@ -29,8 +29,9 @@ This page I update from time to time to reflect what tools I use to do things.
 - [[421|Handmade Workbenches]]
     - Table saw
     - Miter Saw
-## 3D Printing
+## 3D Printing & Electronics
 - Bambi Labs A1 Mini with AMS
+- Hakko FX888DX-010BY soldering station
 ## Tech
 ![[tools-phone-lineup.png]]
 ### Computers
@@ -96,8 +97,7 @@ A routine feels like a choice of tool. This is what I "aim" for, but in reality 
 	- [TypeDoc](https://typedoc.org/)
 - Cloud stuff
 	- Firebase (Firestore and Functions)
-	- Vercel - hosting my puzzle box website
-	- Cloudflare - hosting this blog
+	- Cloudflare - hosting
 	- Google Apps Script + Google Sheets - hosting my [[PDW]]
 - Other tools
 	- PlantUML & [MermaidJS](http://mermaid.js.org/)
@@ -112,7 +112,6 @@ A routine feels like a choice of tool. This is what I "aim" for, but in reality 
 
 - [Gmail](http://gmail.com)/[Google Calendar](http://calendar.google.com) - email and calendar
 - [Obsidian](https://obsidian.md) - notes & writing, increasingly more things
-- [Jump Desktop](https://jumpdesktop.com/) - remote desktop client
 - [Plex](http://plex.tv) - personal media library
 - [Libby](https://www.overdrive.com/apps/libby/) - getting & reading books
 - YouTube Music - due to it coming with the no-ads YouTube subscription 
@@ -120,7 +119,6 @@ A routine feels like a choice of tool. This is what I "aim" for, but in reality 
 - [Pocketcasts](http://pocketcasts.com) - podcast application of choice
 - [Excalidraw](https://excalidraw.com) - quick digital drawings
 - [Draw.io](https://app.diagrams.net/) - diagramming
-- [Figma](https://apps.apple.com/app/id1152747299) - design and whiteboarding
 - [Google Photos](http://photos.google.com) - photo managing
 - [Google Drive](http://drive.google.com) - main cloud application
 - [iCloud](http://icloud.com) - backups for devices + some other cloud stuff
@@ -128,7 +126,6 @@ A routine feels like a choice of tool. This is what I "aim" for, but in reality 
 - [Pocket](http://getpocket.com) - online article collection & reading
 - [Tesla](https://apps.apple.com/us/app/tesla/id582007913) - car stuff
 - [Pixen](https://pixenapp.com/) - pixel art & animation
-- [ToonSquid](https://toonsquid.com) - animation
 - [Monarch](https://www.monarchmoney.com/) - money tracking
 - [Shortcuts](https://shortcutsgallery.com/) - lots of stuff, but mainly Lifeline Journal inputs
 - Apple's Reminders app - location-based reminders and as an inbox
@@ -143,7 +140,6 @@ A routine feels like a choice of tool. This is what I "aim" for, but in reality 
 - [Visual Studio Code](https://code.visualstudio.com/) - coding
 - [Handbrake](http://handbrake.fr) - video transcoding
 - [MakeMKV](http://makemkv.com) - movie backup
-- [VisualParadigm](https://www.visual-paradigm.com/) - UML & SysML
 - Final Cut Pro - video production
 - [Fusion360](https://www.autodesk.com/products/fusion-360/overview?term=1-YEAR&tab=subscription) - CAD
 - [ImageOptim](https://imageoptim.com/mac) - awesome image file size reducing utility
@@ -151,14 +147,15 @@ A routine feels like a choice of tool. This is what I "aim" for, but in reality 
 ### iOS and iPadOS
 
 - [Streaks](http://streaksapp.com) - habit tracking
-- [Procreate](https://procreate.art/) - making drawings & comics
-- [Working Copy](https://workingcopyapp.com/users-guide) - Git client/writing app
-- [Concepts](https://apps.apple.com/app/id560586497) - doodles & drawings
-- [Data Jar](https://datajar.app/) - iOS Shortcuts enhancer
 - [Hevy](https://www.hevyapp.com) - weightlifting app of choice
 - [Scriptable](https://scriptable.app/) - iOS Shortcuts enhancer, better integrates Lifeline Journal & iOS
-- [Pythonista](https://apps.apple.com/us/app/pythonista-3/id1085978097) - also a shortcuts enhancer, and other stuff
+- [Procreate](https://procreate.art/) - making drawings & comics
 - [Ferrite Pro](https://apps.apple.com/us/app/ferrite-recording-studio/id1018780185) - spoken audio editor
+- [ToonSquid](https://toonsquid.com) - animation
+- [Concepts](https://apps.apple.com/app/id560586497) - doodles & drawings
+- [Data Jar](https://datajar.app/) - iOS Shortcuts enhancer
+- [Pythonista](https://apps.apple.com/us/app/pythonista-3/id1085978097) - also a shortcuts enhancer, and other stuff
+- [Working Copy](https://workingcopyapp.com/users-guide) - Git client/writing app
 # Archive/Out-of-Use Tools
 
 ![[tools-archive.png]]
@@ -169,9 +166,11 @@ A routine feels like a choice of tool. This is what I "aim" for, but in reality 
 	- Apple Watch Gen 1 → upgraded
 - Apps
 	- Sony Movie Studio Platinum 15 → I replaced it with Final Cut & never liked it to begin with
+	- [Jump Desktop](https://jumpdesktop.com/) - remote desktop client → I never remote any more
 	- [Todoist](http://todoist.com) - task management → determined the native iOS Reminders app + Notion covers my task management needs
 	- [GoodNotes 6](https://www.goodnotes.com/) - since their switch to the subscription model I haven't found enough reason to use them over anything else.
 	- [Things 3](https://apps.apple.com/us/app/things-3/id904280696?mt=12) - task management → Same thing happened as [Todoist](https://www.notion.so/Tools-41615f02a1cf4f5e80f29261a5484579?pvs=21)
+	- [Figma](https://apps.apple.com/app/id1152747299) → I don't need the sophistication of Figma for my level of building things
 	- [Fantastical](https://apps.apple.com/us/app/fantastical-calendar/id718043190) - good app, I built my own widget that replaced what I used it for
 	- Strong App → offered no Lifetime Subscription options, so I switched to Hevy, which I bought a lifetime subscription for immediately
 	- [Curve](https://apps.apple.com/us/app/linearity-curve-graphic-design/id1219074514) → Nerfed their free tier to the point of being unusable
@@ -181,6 +180,7 @@ A routine feels like a choice of tool. This is what I "aim" for, but in reality 
 	- [Audacity](http://audacityteam.org) - audio recording → began using Ferrite Pro for recording
 	- [Notion](http://notion.so) - life management → technically still have Notion, but migrated most things to Obsidian and iOS Calendar / Reminders apps
 	- [Procreate Dreams](https://procreate.com/dreams) - animations → Replaced with the better animation app ToonSquid
+	- [VisualParadigm](https://www.visual-paradigm.com/) - UML & SysML → I just don't do that level of modeling for stuff
 - Coding
 	- Axis360 → My local library finally got it and transitioned to the much better Libby
 	- [Shapr3D](http://shapr3d.com) → Replaced by Fusion360
@@ -188,6 +188,7 @@ A routine feels like a choice of tool. This is what I "aim" for, but in reality 
 	- [Wrapper-Lib](https://www.npmjs.com/package/wrapper-lib) - my own NPM Module! Replaced with Svelte
 	- [Codepen.io](http://codepen.io) - front end development in-browser → I spin up my own local sites
 	- [Glitch](http://glitch.com) → replaced by firebase/vercel
+	- Vercel → Migrated everything to Cloudflare, mostly just cause
 	- Toolbox Pro - iOS Shortcuts enhancer → no longer used by any active shortcuts
 	- React → it's been long enough since I used React I'd be relearning a lot of it
 	- Bootstrap → meh
