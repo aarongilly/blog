@@ -29,6 +29,7 @@ This page I update from time to time to reflect what tools I use to do things.
 - [[421|Handmade Workbenches]]
     - Table saw
     - Miter Saw
+- Project bucket - a 5-gallon bucket with [this insert](https://www.amazon.com/dp/B00A0PA2NK) and a selection of my most-used house project tools
 ## 3D Printing & Electronics
 - Bambi Labs A1 Mini with AMS
 - Hakko FX888DX-010BY soldering station
@@ -49,7 +50,7 @@ This page I update from time to time to reflect what tools I use to do things.
 - Apple Smart Keyboard Folio
 - Audio Technical ATR2100 microphone
 - Apple Watch SE
-- [Oura Ring](http://ouraring.com) 3
+- [Oura Ring](http://ouraring.com) 4
 
 ---
 
@@ -134,7 +135,7 @@ A routine feels like a choice of tool. This is what I "aim" for, but in reality 
 - Some Subset of: YouTube, Netflix, Hulu, HBO Max, Disney+, Paramount +, Peacock, Amazon Prime, Apple TV+
 ### Smart Home
 - [HomeAssistant](https://www.home-assistant.io/) - for all my smart home needs
-- Specific devices I do not plan to list here
+- Specific devices I do not plan to list here, but I'm using Zigbee (mostly)
 ### MacOS
 
 - [Visual Studio Code](https://code.visualstudio.com/) - coding

@@ -5,24 +5,27 @@ enableToc: false
 This is a [now page](https://sive.rs/nowff).
 
 I am currently working on these things... 
-Last affirmed **2025-12-22**.
+Last affirmed **2026-01-09**.
 
 # Now
 
-## Enjoying the Holidays
+## Finish Grad School
 
-## Doing Some House Projects
+University of Central Missouri - Masters in Data Analytics
 
-## Pandora's Box V2
+## Auto-Properties Plugin
 
-Making an easier to produce version of my puzzle box from last year.
+Finish releasing & promoting my 2nd Obsidian plugin. 
 
 # On Deck/On Hold
 
-## Grad School
+## Pandora's Box V2
 
-I've got a couple of months off before I return and finish my last 3 classes in pursuit of my Masters in Data Analytics.
+I plan to make a "version 2" of my 2025 puzzle box, [[Pandora's Box]], to make it easier to produce and fix some unintentionally hard bits of the play through. 
 
+## Puzzle Box 2026
+
+I've many ideas, but this needs to wait until Grad School is done. 
 ## Playdate Development
 
 I may try my hand at making a game for the Playdate.

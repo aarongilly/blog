@@ -3,10 +3,12 @@ title: Data Journal
 date: 2024-12-05
 tags:
   - page
-description: 
+description:
 draft: false
 permalink: DJ
 enableToc: true
+aliases:
+  - PDW
 ---
 
 I have maintained a life-tracking project since 2013. If you’re interested in that, this page is for you. 
@@ -58,6 +60,12 @@ This list has been honed over time. I've tracked everything on this list since a
 	- `Note` - any additional context
 - **Events**
 	- `Event` - a catch-all for any time-based thing I want to make note of - e.g. "replaced hot water heater"
+- **DoctorVisits**
+	- `Type` - dentist, doctor, etc
+	- `Where` - name of clinic
+	- `Who` - name of doctor
+	- `Reason` - why you were there
+	- `Notes` - take aways, reminders to self, etc
 - **Daily Things**
 	- `Summary` - A brief description of the day. What I did. Who I saw. How it went.
 	- `Health` - 1-to-10 how healthy do I feel?
@@ -179,6 +187,10 @@ I have about a dozen Siri Shortcuts that look like that, each for inputting a sp
 ## How I've Done It - A Brief History
 
 This is how the system evolved over time - in *very* brief.
+
+![[465-1.png|500]]
+
+For a tiny bit more detail...
 
 ![[Data-Journal-History.jpeg]]
 

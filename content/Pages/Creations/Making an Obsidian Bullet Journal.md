@@ -1,19 +1,17 @@
 ---
 date: 2024-10-11
 tags:
-  - page
+  - creation
+  - creation/other
 ---
 > [!warning] Unfinished
-> This page is unfinished. So long as this box is here some amount of the content below is incomplete.
+> This page was never finished. Also - the whole thing I stopped using after a few months. Turned out not to be the best idea I've ever had in terms of data capture.
 
 Obsidian is an app [[408#1. .txt|I first wrote about in May 2021]] primarily for note taking & personal knowledge management, but can be used in many other ways. Bullet Journals I covered in [[460|Column #460]]. This page describes how I built a system approximating a **digital bullet journal** using Obsidian, some plugins, some Siri Shortcuts, my [[PDW]], and some elbow grease.
 
 This whole setup will *look* complicated[^1]... but **using** it is as fast and easy as possible.
 
 # Results
-First thing's first - this is what it is:
-
-- [ ] Make a video showing some aspects of ease-of-use
 
  Each of these are explained further below.
 - enable [[#Periodic Reviews]]
@@ -97,7 +95,7 @@ Now that I've found a system in Obsidian that works for me on a hour-by-hour bas
 # Obsidian + PDW = Success?
 I'm actively in the process of migrating my [[PDW]] to an Obsidian-based system. Ever since v10 of the PDW -  Like all PDW-related stuff since the epoch of v10, this does not mean abandoning old codebases. The Canonical Data Structure will remain intact, but translations via an Obsidian DataStore Connector will make it feel native to Obsidian.
 
-- [ ] fill this in more later, too
+> [!warning] This technically worked, but was not easy to maintain & created numerous small bugs. I wound up abandoning this approach and reverting the [[PDW]] back to Google Sheets.
 ## Data Move: Obsidian → PDW
 ![[pages-PDW-Obsidian-Import.svg]]
 ## Data Move: PDW → Obsidian

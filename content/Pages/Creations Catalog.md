@@ -5,6 +5,23 @@ tags:
   - page
 ---
 - The creations catalog. An incomplete list of things I’ve made that I felt like sharing. Art. Coding projects. Writing. Whatever.
+
+# 2026
+
+## ![[Obsidian-based Project Management System]]
+# 2025
+
+## ![[Auto-Properties Plugin]]
+
+## ![[Pandora's Box]]
+## ![[Default Meals Analysis]]
+## ![[Backup Island Strategy]]
+
+## ![[Data Journal Machine Learning Jupyter Notebook]]
+
+## ![[Excalidraw Packing Drawing]]
+
+## ![[Data Journal 11]]
 # 2024
 ## ![[Semantic Canvas 1.2]]
 ## ![[Brief Mystery]]
