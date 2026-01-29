@@ -4,13 +4,13 @@ enableToc: false
 date: 2025-12-13
 ---
 
-![[index-me-in-crowd.png]]
+![[home-me-in-crowd.png]]
 
 Hi. I'm Aaron. Welcome to my website. I'm glad you're here.
 
 I write and create things to entertain… and inform... mostly myself. I don't sell anything. I'm not here to make money. I'm here to enjoy myself; and I hope you do too. See what I'm up to [[Now]].
 
-> [!success] Current Column → [[482]]
+> [!success] Current Column → [[483]]
 
 # Main Attractions
 
@@ -33,7 +33,7 @@ I write and create things to entertain… and inform... mostly myself. I don't s
 
 ## Secondary Features
 
-<div style='display:grid; grid-template-columns: 1fr 1frr'>
+<div style='display:grid; grid-template-columns: 1fr 1fr 1fr'>
 <!-- Until/if I ever have a podcast again
 	<a href="https://shows.acast.com/we-scene-a-movie">
 		<img src="./assets/home-feature-podcast.png"/>
@@ -47,5 +47,9 @@ I write and create things to entertain… and inform... mostly myself. I don't s
 	<a href="/Pages/Data-Journal">
 		<img src="./assets/home-feature-dj.png"/>
 		<div class="feature-head">Data Journal</div>
+	</a>
+	<a href="https://www.youtube.com/@aarongilly">
+		<img src="./assets/home-feature-yt.png"/>
+		<div class="feature-head">YouTube</div>
 	</a>
 </div>

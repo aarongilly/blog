@@ -6,7 +6,7 @@ date: 2025-10-19
 ---
 Build on work from [this git repo](https://github.com/TimHanewich/MicroPython-SSD1306).
 
-![[DIY_Animation_Circuit.mp4]]
+![[creations-DIY_Animation_Circuit.mp4]]
 
 - Based on repo: https://github.com/TimHanewich/MicroPython-SSD1306
 - Pixen for animation frame drawing & generation
@@ -38,7 +38,7 @@ General steps for reproduction:
 - SSD1306 SCL to pin 1 (GPIO 1)
 - SSD1306 SDA to pin 0 (GPIO 0)
 
-![[animation_wiring.jpeg]]
+![[creations-animation_wiring.jpeg]]
 Ignore the +/- on the breadboard bus. I wasn't paying attention to those & have my ground on the "+" bar.
 ## On-Computer Code
 I did this in Thonny.

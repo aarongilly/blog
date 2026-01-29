@@ -56,7 +56,7 @@ This is why I like the system the most - it's **not** using a ton of stitched-to
 
 - Core
 	- **Tasks** - I *only* use tasks to gain access to the `task` *query* functionality
-	- **Auto-properties** - for promoting in-progress tasks to a `next` property automatically
+	- **[[Auto-Properties Plugin|Auto-properties]]** - for promoting in-progress tasks to a `next` property automatically
 - Optional
 	- **QuickAdd** - more easily creating project/resource/weekly notes, in the right folder, with the right template
 	- **Excalidraw** - drawings are good, I set this up in a specific way (more [[#Excalidraw|below]])

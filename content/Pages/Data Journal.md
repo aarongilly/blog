@@ -36,7 +36,9 @@ My Data Journal allows me to answer questions like:
 
 ### What I'm Tracking Now
 
-This list has been honed over time. I've tracked everything on this list since at January 1st 2020, and several things dating way way before that. I track these things because they've proven themselves either useful or amusing enough to continue being noted.
+![[dj-pyramid-basic.png]]
+
+This list has been honed over time. I've tracked everything on this list since at least January 1st 2020, and several things dating way before that. I track these things because they've proven themselves either useful or amusing enough to continue being noted.
 
 - **Workouts**
 	- `Name` - title of workout or short description
@@ -60,7 +62,7 @@ This list has been honed over time. I've tracked everything on this list since a
 	- `Note` - any additional context
 - **Events**
 	- `Event` - a catch-all for any time-based thing I want to make note of - e.g. "replaced hot water heater"
-- **DoctorVisits**
+- **Doctor Visits**
 	- `Type` - dentist, doctor, etc
 	- `Where` - name of clinic
 	- `Who` - name of doctor
@@ -79,13 +81,13 @@ This list has been honed over time. I've tracked everything on this list since a
 	- Formulas summarizing all of the above
 - **Monthly**
 	- Formulas summarizing all of the above
+	- `Vacation` - any vacations taken
 - **Quarterly**
 	- Formulas summarizing all of the above
+	- `Fitness Test` - the date of the [[379|Overall Fitness Test]] I did during the quarter
 - **Yearly**
 	- Formulas summarizing all of the above
 	- `Big Event` - it seems like every year has one, they mark the passage of time
-	- `Podcast Listen Time` - Hours 
-	- `YouTube View Count` - per Google Takeout
 	- `Puzzle Box` - name of my annual puzzle box
 
 Looks like a lot, and it probably is, but I've made capture very easy. All of the sleep-related stuff happens automatically. Everything else is primarily entered in an ad-hoc manner via Siri Shortcuts. See [[#How I Do It]].
@@ -160,13 +162,19 @@ This allows you to use formulas like `countif()` and `averageif()` to select row
 
 ![[DJ-Formulas.png]]
 
-### Google Apps Script Web App
+#### In short: 
+
+What I track at each level of granularity. 
+![[dj-pyramid-full.png]]
+### Google Apps Script Web App - Your Own API
 
 Create a Google Apps Script [using code like this](https://gist.github.com/aarongilly/78e9ea6380d1bdb3b3d23abf52b3f3e4)[^5] to do 1, 2, or 3 things - in order I'd recommend:
 
 1. `oneAM()` - Setup a nightly Trigger that auto-generate rows for you each day/week/month/year. This is a relatively simple process that makes the whole thing much less tedious.
 2. `doPost()` - Publish a webapp to allow for writing data to the workbook from anything that can generate an HTTP POST request (e.g. Siri Shortcuts, IFTTT)
-3. `doGet()` - Include a route on the webapp to allow for *retrieving* data. I kept mine simple and it **only** supports getting *today's* data.
+3. `doGet()` - Include a route on the webapp to allow for *retrieving* data. I kept mine *relatively* simple:
+	1. default behavior => return **today**'s data, and **year-to-date** data (see [[#Widgets with Scriptable]] for why)
+	2. include `?export=sheetname` => downloads a CSV copy of whatever sheet's name you supply (for automating local backups)
 
 The secret sauce is really the automations to always have new rows created for each period of time AND to setup the doPost API route to allow automated data writing from Siri Shortcuts. These two things alone ensure you've got space to put stuff and that you're putting at least *something* in that space. Once you have *some* data in a spot it becomes motivating to try to fill the blanks.
 
@@ -184,6 +192,12 @@ After setting up the WebApp, with literally *one* action in a Siri Shortcut you 
 
 I have about a dozen Siri Shortcuts that look like that, each for inputting a specific kind of event data. Most of them I trigger using my voice or keyboard, but some are fully automated & I never trigger manually. For example - every night at 3:30am my phone sends to the Data Journal the city I am in. This `Sleep Location` metric I use to keep track of how often I'm traveling, and it happens without me doing *anything*. 
 
+### Widgets with Scriptable
+
+Scriptable is an app on iOS & iPad OS that allows you to write scripts and build your own widgets using JavaScript. Using your own API, you can send a `fetch()` request to grab data and make your own widget. I've made a widget that displays **today's** data, and widget that displays **year-to-date** data. They aren't super pretty, but they are super effective reminding me to track things & showing how I'm doing on the year.
+
+![[dj-widgets.jpg|500]]
+
 ## How I've Done It - A Brief History
 
 This is how the system evolved over time - in *very* brief.
@@ -192,14 +206,14 @@ This is how the system evolved over time - in *very* brief.
 
 For a tiny bit more detail...
 
-![[Data-Journal-History.jpeg]]
+![[DJ-History.jpeg]]
 
 Versions rolled each time I changed what I was tracking... most of which *also* coincided with some form of system structure/architecture change. In general, I started tracking a little, then a lot, then way too much, back down to just a lot, and now I'm settled at a medium amount *(but probably still what you'd consider "a lot")*.
 # Conclusion
 
 Making the Data Journal was (and still is) a continual process of learning, refinement, and optimization. Using it did all those same things when it came to my lifestyle. It has been my 4th best constant companion for the past many years. If I hadn’t had such a good reason to learn all these things, I reckon it would have never happened.
 
-# Epilogue: Short List of Technical Things I’ve Learned Thanks to this Project
+## Epilogue: Short List of Technical Things I’ve Learned Thanks to this Project
 
 Here’s an incomplete list of the technical things I’ve learned thanks to this project.
 
@@ -218,6 +232,8 @@ Here’s an incomplete list of the technical things I’ve learned thanks to thi
 - Siri Shortcuts - a surprisingly powerful tool.
     - Siri Automations
 - Google Apps Script - another surprisingly powerful tool
+	- Automated triggers
+	- Web App deployment
 - Scriptable App
     - Custom widget creation
 - REST API consumption

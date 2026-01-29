@@ -5,7 +5,7 @@ enableToc: false
 This is a [now page](https://sive.rs/nowff).
 
 I am currently working on these things... 
-Last affirmed **2026-01-09**.
+Last affirmed **2026-01-24**.
 
 # Now
 
@@ -13,9 +13,9 @@ Last affirmed **2026-01-09**.
 
 University of Central Missouri - Masters in Data Analytics
 
-## Auto-Properties Plugin
+## Rearchitecting Aaron's Puzzles
 
-Finish releasing & promoting my 2nd Obsidian plugin. 
+Rebuilding [Aaron's Puzzles](https://aaronspuzzles.com/) once so [I don't have to do it again](https://gillespedia.com/Aaron's+Puzzles+Site+Architecture).
 
 # On Deck/On Hold
 
@@ -26,6 +26,11 @@ I plan to make a "version 2" of my 2025 puzzle box, [[Pandora's Box]], to make i
 ## Puzzle Box 2026
 
 I've many ideas, but this needs to wait until Grad School is done. 
+
 ## Playdate Development
 
 I may try my hand at making a game for the Playdate.
+
+## House Projects
+
+Various things around here that I'd like to tweak & upgrade.
