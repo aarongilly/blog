@@ -194,7 +194,7 @@ I have about a dozen Siri Shortcuts that look like that, each for inputting a sp
 
 ### Widgets with Scriptable
 
-Scriptable is an app on iOS & iPad OS that allows you to write scripts and build your own widgets using JavaScript. Using your own API, you can send a `fetch()` request to grab data and make your own widget. I've made a widget that displays **today's** data, and widget that displays **year-to-date** data. They aren't super pretty, but they are super effective reminding me to track things & showing how I'm doing on the year.
+Scriptable is an app on iOS & iPad OS that allows you to write scripts and build your own widgets using JavaScript. You can use it to make your own widget(s), then use your own webapp API, you can send a `fetch()` request to grab data and use it. I've made a widget that displays **today's** data, and widget that displays **year-to-date** data. They aren't super pretty, but they are super effective reminding me to track things & showing how I'm doing on the year.
 
 ![[dj-widgets.jpg|500]]
 
@@ -263,7 +263,7 @@ Here’s an incomplete list of the technical things I’ve learned thanks to thi
     - Standardization & interface-orientation
     - Documentation
     - Designing & packaging plugins
-- Hardest lessons of all:
+- **Hardest lessons of all**:
 	- [YAGNI](https://gillespedia.com/YAGNI)
 	- Avoiding complexity is the #1 most important thing
 	- Sometimes living with small problems is the correct solution

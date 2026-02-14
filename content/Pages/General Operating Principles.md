@@ -32,3 +32,5 @@ A distilled list of principles I try to apply wherever I can.
 6. **Don't go it alone**
 	1. Use your team
 	2. Help others where you can
+
+## Technology Principles
