@@ -8,10 +8,11 @@ tags:
 
 # 2026
 
-## ![[Obsidian-based Project Management System]]
+![[Full-Stack Hobbyist Visuals#Summary]]
+## ![[Obsidian-based Project Management System#Summary]]
 # 2025
 
-## ![[Auto-Properties Plugin]]
+## ![[Auto-Properties Plugin#Summary]]
 
 ## ![[Pandora's Box]]
 ## ![[Default Meals Analysis]]

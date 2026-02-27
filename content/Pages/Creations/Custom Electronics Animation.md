@@ -4,9 +4,14 @@ tags:
   - creation/crafting
 date: 2025-10-19
 ---
-Build on work from [this git repo](https://github.com/TimHanewich/MicroPython-SSD1306).
+# Summary
 
 ![[creations-DIY_Animation_Circuit.mp4]]
+
+# More
+
+Build on work from [this git repo](https://github.com/TimHanewich/MicroPython-SSD1306).
+
 
 - Based on repo: https://github.com/TimHanewich/MicroPython-SSD1306
 - Pixen for animation frame drawing & generation

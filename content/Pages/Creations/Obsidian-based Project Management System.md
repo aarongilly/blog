@@ -4,9 +4,11 @@ tags:
   - creation/other
 date: 2026-01-09
 ---
+# Summary
 
-After years of iteration, I've arrived on an Obsidian-based project management system that I enjoy using, with no asterisks necessary.
+After years of iteration, I've arrived on an Obsidian-based project management system that I enjoy using, with no asterisks necessary. This page tells all about it.
 
+# More
 ## Overview
 
 ### Capabilities
