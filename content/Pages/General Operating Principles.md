@@ -34,3 +34,13 @@ A distilled list of principles I try to apply wherever I can.
 	2. Help others where you can
 
 ## Technology Principles
+
+1. **Choose boring technology**
+	1. Remember innovation tokens are limited
+2. **Avoid proprietary file formats**
+	1. Except niche capabilities (e.g. CAD Modeling, video editing)
+	2. Use durable file types - the closer to plain text the better
+3. **Choose local-first**
+	1. Use the cloud, but avoid cloud-only solutions
+4. **Avoid having multiple applications for the same function**
+5. **Use SemVer Versioning & ISO 8601**

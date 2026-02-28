@@ -5,6 +5,8 @@ tags:
   - creation/drawing
 date: 2024-06-18
 ---
+Graphic design. (part of game creation, too)
+
 As one does.
 
 

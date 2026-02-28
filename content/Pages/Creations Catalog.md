@@ -1,5 +1,5 @@
 ---
-enableToc: true
+enableToc: false
 date: 2024-07-25
 tags:
   - page
@@ -8,11 +8,11 @@ tags:
 
 # 2026
 
-![[Full-Stack Hobbyist Visuals#Summary]]
-## ![[Obsidian-based Project Management System#Summary]]
+![[Full-Stack Hobbyist Visuals]]
+## ![[Obsidian-based Project Management System]]
 # 2025
 
-## ![[Auto-Properties Plugin#Summary]]
+## ![[Auto-Properties Plugin]]
 
 ## ![[Pandora's Box]]
 ## ![[Default Meals Analysis]]

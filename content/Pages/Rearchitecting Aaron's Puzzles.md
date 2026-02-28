@@ -1,4 +1,13 @@
+---
+date: 2026-02-13
+tags:
+  - page
+enableToc: true
+---
 I built AaronsPuzzles.com like a tank. I needed a peashooter. 
+
+> [!tldr] 
+> I switched from a Monorepo to static webpages built separately & combined manually
 
 # Original architecture:
 
@@ -59,4 +68,4 @@ flowchart LR
 This way, puzzles become what they are - a snapshot of a point in time. This approach also completely opens up wholly new ways to build puzzles. I'm no longer locked into a particular framework for forever. I am no longer even required to use JavaScript as the development language, if I wanted. 
 ### Removed Dependency on "the Cloud"
 
-My puzzle web pages have always worked locally, but they did assume that game progress was being saved to a Google Firestore cloud database. As part of this "one last rebuild for every puzzle" I am migrating to use in-browser storage & a dead simple Google Apps Script-based high score system that will fail elegantly (if it fails) and not affect user puzzle-solving experience.
+My puzzle web pages have always worked locally, but they did assume that game progress was being saved to a Google Firestore cloud database. As part of this "one last rebuild for every puzzle" I am migrating to use in-browser storage & a dead simple Google Sheets and Google Apps Script-based high score system that will fail elegantly (if it fails) and not affect user puzzle-solving experience.

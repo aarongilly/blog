@@ -4,8 +4,9 @@ tags:
   - creation/other
 date: 2025-10-10
 ---
+Google Sheet. Recipes.
 
-I made t[his spreadsheet which analyzes half a dozen recipes for their cost and basic health parameters, while also giving you the recipes](https://docs.google.com/spreadsheets/d/1RoKmY_-aQk5KvdJWrV7-mwyRyUmCsIX6SQFpBoSdNA0/edit?usp=sharing). It was a lot of work. Here's a chart!
+I made [this spreadsheet which analyzes half a dozen recipes for their cost and basic health parameters, while also giving you the recipes](https://docs.google.com/spreadsheets/d/1RoKmY_-aQk5KvdJWrV7-mwyRyUmCsIX6SQFpBoSdNA0/edit?usp=sharing). It was a lot of work. Here's a chart!
 
 ![[478-3.png]]
 

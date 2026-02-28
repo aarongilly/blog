@@ -4,7 +4,7 @@ tags:
   - creation/crafting
 date: 2025-10-19
 ---
-# Summary
+Electronics project and animation.
 
 ![[creations-DIY_Animation_Circuit.mp4]]
 

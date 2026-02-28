@@ -4,6 +4,7 @@ tags:
   - creation/coding
 date: 2024-05-15
 ---
+Obsidian Plug-in. TypeScript.
 
 [Semantic Canvas](https://github.com/aarongilly/obsidian-semantic-canvas-plugin) is an Obsidian plugin I wrote that gives canvases the power to edit file properties _visually_.
 

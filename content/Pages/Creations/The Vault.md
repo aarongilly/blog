@@ -4,8 +4,8 @@ tags:
   - creation/puzzlebox
 date: 2022-12-25
 ---
-
 Puzzle box & webpage. 
+
 My first reusable Puzzle Box:
 https://www.aaronspuzzles.com/TheVault
 

@@ -4,6 +4,8 @@ tags:
   - creation
   - creation/other
 ---
+Generic system design. Honestly not my best work. Tried to do too much. [[Obsidian-based Project Management System]] is better.
+
 > [!warning] Unfinished
 > This page was never finished. Also - the whole thing I stopped using after a few months. Turned out not to be the best idea I've ever had in terms of data capture.
 

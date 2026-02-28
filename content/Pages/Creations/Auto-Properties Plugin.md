@@ -4,7 +4,9 @@ tags:
   - creation/coding
 date: 2026-01-09
 ---
-# Summary
+Obsidian Plug-in. TypeScript.
+
+# Auto-Properties Plugin
 
 Auto-properties is a Plug-in for Obsidian that allows you to create automatically-updating properties based on the contents of your notes + rules you define. 
 

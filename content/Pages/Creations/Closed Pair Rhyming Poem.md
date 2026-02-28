@@ -3,7 +3,6 @@ tags:
   - creation/writing
 date: 2022-01-03
 ---
-
 Constrained writing.
 
 > [!cite] Scrutiny or Mutiny?

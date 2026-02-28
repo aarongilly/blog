@@ -5,8 +5,8 @@ tags:
   - creation/puzzlebox
 date: 2023-12-25
 ---
-
 Puzzle box & webpage. 
+
 My better, second reusable puzzle box: 
 https://www.aaronspuzzles.com/CookieJar
 

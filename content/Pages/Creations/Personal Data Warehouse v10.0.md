@@ -4,8 +4,8 @@ tags:
   - creation/coding
 date: 2023-08-10
 ---
+Web app. TypeScript.
 
-Web app.
-https://pdw.one - although I suggest using something simpler. [[PDW]] to read more about it.
+This had a website in the past, but was deprecated and I've since lost the domain name (because I had no reason to keep it). I suggest using something simpler. See [[Data Journal]] for more up-to-date info.
 
 ![[pdw-top-architecture.png]]

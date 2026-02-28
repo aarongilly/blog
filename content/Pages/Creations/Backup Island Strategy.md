@@ -4,6 +4,8 @@ tags:
   - creation/other
 date: 2024-08-23
 ---
+Process. Also a python script to execute said process.
+
 Finally settled on a good, sustainable (feeling) strategy for achieving the [3-2-1 Rule for File Backups](https://gillespedia.com/3-2-1+Rule+for+File+Backups). 
 
 ## Islands Strategy
