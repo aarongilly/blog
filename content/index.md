@@ -10,7 +10,7 @@ Hi. I'm Aaron. Welcome to my website. I'm glad you're here.
 
 I write and create things to entertain… and inform... mostly myself. I don't sell anything. I'm not here to make money. I'm here to enjoy myself; and I hope you do too. See what I'm up to [[Now]].
 
-> [!success] Current Column → [[485]]
+> [!success] Current Column → [[486]]
 
 # Main Attractions
 
@@ -40,13 +40,13 @@ I write and create things to entertain… and inform... mostly myself. I don't s
 		<div class="feature-head">Movie Podcast</div>
 	</a>
 -->
+	<a href="https://datajournal.guide">
+		<img src="./assets/home-feature-dj.png"/>
+		<div class="feature-head">Data Journal</div>
+	</a>
 	<a href="/Pages/Creations">
 		<img src="./assets/home-feature-creations.png"/>
 		<div class="feature-head">Creations</div>
-	</a>
-	<a href="/Pages/Data-Journal">
-		<img src="./assets/home-feature-dj.png"/>
-		<div class="feature-head">Data Journal</div>
 	</a>
 	<a href="https://www.youtube.com/@aarongilly">
 		<img src="./assets/home-feature-yt.png"/>
