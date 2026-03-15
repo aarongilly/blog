@@ -60,7 +60,12 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     // Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Explorer({
+      filterFn: node => {
+        //@ts-ignore
+        return !node.slug?.startsWith('assets') && !node.slug?.startsWith('meta')
+      },
+    })),
   ],
   right: [
     Component.MyCustomComponent(),],
