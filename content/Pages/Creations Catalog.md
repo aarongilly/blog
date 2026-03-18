@@ -8,7 +8,9 @@ tags:
 
 # 2026
 
-![[Full-Stack Hobbyist Visuals]]
+## Full-Stack Hobbyist
+
+![[Full-Stack Hobbyist Visuals#^about]]
 ## ![[Obsidian-based Project Management System]]
 # 2025
 
