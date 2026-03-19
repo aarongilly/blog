@@ -4,6 +4,12 @@ tags:
   - creation/audio
 date: 2018-12-31
 ---
-Podcast. Ran for nearly 5 years. Now [reformulated](https://shows.acast.com/we-scene-a-movie).
+## We Scene a Movie (og)
 
-![[creations-wsam.png]]
+**Podcast. Ran for nearly 5 years. Now [reformulated](https://shows.acast.com/we-scene-a-movie).**
+
+![[creations-wsam.png|250]]
+
+# Details
+
+Not available anywhere, sadly.

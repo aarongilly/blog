@@ -4,6 +4,13 @@ tags:
   - creation
   - creation/other
 ---
+## Making An Obsidian Bullet Journal
+
+**System Design. Obsidian.**
+
+![[pages-obsidian-1.png|250]]
+# Details
+
 Generic system design. Honestly not my best work. Tried to do too much. [[Obsidian-based Project Management System]] is better.
 
 > [!warning] Unfinished

@@ -2,10 +2,15 @@
 tags:
   - creation
   - creation/puzzlebox
+  - creation/web
 date: 2025-12-25
 ---
-Puzzle box - with 3D printing and a microcontroller.
+## Pandora's Box
 
-https://www.aaronspuzzles.com/PandorasBox
+**Puzzle box - with 3D printing and a microcontroller.**
 
 ![[creations-pandoras-box.svg|300]]
+
+# Details
+
+https://www.aaronspuzzles.com/PandorasBox

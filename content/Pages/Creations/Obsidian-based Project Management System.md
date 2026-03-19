@@ -4,11 +4,16 @@ tags:
   - creation/other
 date: 2026-01-09
 ---
-Generic system design. Much better than [[Making an Obsidian Bullet Journal]]. 
+## Obsidian-Based Project Management System
+**System design. Obsidian.**
+
+![[creations-obsidian-projects-1.png|250]]
+
+# Details
+Much better than [[Making an Obsidian Bullet Journal]]. 
 
 After years of iteration, I've arrived on an Obsidian-based project management system that I enjoy using, with no asterisks necessary. This page tells all about it.
 
-# More
 ## Overview
 
 ### Capabilities

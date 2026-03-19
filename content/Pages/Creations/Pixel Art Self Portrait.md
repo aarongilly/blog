@@ -5,9 +5,14 @@ tags:
   - creation/drawing
 date: 2024-06-18
 ---
-Graphic design. (part of game creation, too)
+## Pixel Art Self Portrait
+
+**Graphic design. (part of game creation, too)**
+
+![[creations-pixel-art-me.png]]
+
+# Details
 
 As one does.
 
-
-![[creations-pixel-art-me.png]]
+Used in [[Brief Mystery]]

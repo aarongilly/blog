@@ -3,7 +3,11 @@ tags:
   - creation/writing
 date: 2022-01-03
 ---
-Constrained writing.
+## Closed Pair Rhyming Poem
+
+**Constrained writing.**
+
+# Details
 
 > [!cite] Scrutiny or Mutiny?
 > I'm just a lonely yachtsman, out here on the sea. My crew, only Scottsmen, talk Scottish about me.

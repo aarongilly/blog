@@ -3,5 +3,9 @@ tags:
   - creation/writing
 date: 2020-12-04
 ---
-Writing. A particularly well done Column.
+## Index Cards of Advice
+
+**Writing. A particularly well done Column.**
+
+# Details
 See: [[402]]

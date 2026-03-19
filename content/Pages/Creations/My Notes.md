@@ -2,11 +2,18 @@
 tags:
   - creation
   - creation/writing
+  - creation/web
 date: 2020-03-03
 ---
-Writing.
+## My Notes
 
-Started in early 2020. Being updated frequently.
+**Writing.**
+
+![[home-feature-notes.png|250]]
+
+# Details
+
+Started in early 2020. Still being updated frequently.
 
 A zettelkasten-like ever-growing body of notes. Later rebranded to [Gillespedia](https://www.gillespedia.com).
 

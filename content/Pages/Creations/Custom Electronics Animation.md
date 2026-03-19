@@ -4,11 +4,13 @@ tags:
   - creation/crafting
 date: 2025-10-19
 ---
-Electronics project and animation.
+## Custom Electronics Animation
+
+**Electronics project and animation.**
 
 ![[creations-DIY_Animation_Circuit.mp4]]
 
-# More
+# Details
 
 Build on work from [this git repo](https://github.com/TimHanewich/MicroPython-SSD1306).
 

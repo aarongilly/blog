@@ -4,7 +4,12 @@ tags:
   - creation/coding
 date: 2025-04-20
 ---
-Machine Learning Project.
+## Data Journal Machine Learning Jupyter Notebook
+
+**Machine Learning Project.**
+
+![[pages_data_journal_ML.png|250]]
+# Details
 
 Submitted as part of a machine learning class in my pursuit of a Masters in Data Analytics through NW Missouri State University.
 
