@@ -28,7 +28,7 @@ This website is my internet-facing presence. I maintain it for fun and to keep m
 
 ![[home-feature-creations.png|Creations Image|500]]
 
-I like to make things. Sometimes I forget things I've made. The [[Creations Catalog]] page is meant to be a catalog of some of the stuff I've made over the years. 
+I like to make things. Sometimes I forget things I've made. The [[Creations Catalog]] page is meant to be a catalog of some of the stuff I've made over the years. It includes references to everything below.
 
 ### Now
 
@@ -45,7 +45,8 @@ This is not my only website.
 ### Gillespedia
 
 ![[home-feature-notes.png|Notes Image|500]]
-[Gillespedia](https://gillespedia.com) is a public-facing version of [my notes](https://gillespedia.com/My+Notes). It's a cache of >1700 [evergreen](https://gillespedia.com/Evergreen+Notes) and [atomic](https://gillespedia.com/Atomic+Notes) notes in an [Obsidian](https://gillespedia.com/Obsidian)-based [slip-box](https://gillespedia.com/Slip-Box+Method). 
+
+[Gillespedia](https://gillespedia.com) is a public-facing version of [my notes](https://gillespedia.com/My+Notes). It's a cache of >2222[^3] [evergreen](https://gillespedia.com/Evergreen+Notes) and [atomic](https://gillespedia.com/Atomic+Notes) notes in an [Obsidian](https://gillespedia.com/Obsidian)-based [slip-box](https://gillespedia.com/Slip-Box+Method). 
 
 Similar to this website, everything there is written by me using Obsidian. Unlike this blog (which uses [Quartz publishing](https://gillespedia.com/Quartz+Publishing), lightly modified), I'm using Obsidian's native publish method for Gillespedia.
 
@@ -67,3 +68,5 @@ I have [a movie-based podcast](https://shows.acast.com/we-scene-a-movie). We're 
 [^1]: although this is becoming increasingly arguable as [Gillespedia](https://gillespedia.com) grows
 
 [^2]: 11 systems, really.
+
+[^3]: accurate count + insanely subtle Mitch Hedberg reference. 
