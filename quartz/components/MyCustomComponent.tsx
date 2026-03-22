@@ -32,6 +32,9 @@ export default ((opts?: Options) => {
                         <a class="footer-link" href="https://gillespedia.com">
                             <img src="/assets/home-notes.svg" style="height: 1.5em; margin: 0em"></img><div style="margin-left: 0.5em">My Notes</div>
                         </a>
+                        <a class="footer-link" href="https://datajournal.guide">
+                            <img src="/assets/datajournal.svg" style="height: 1.5em; margin: 0em"></img><div style="margin-left: 0.5em">Data Journal</div>
+                        </a>
                         {/* <a class="footer-link" href="https://shows.acast.com/we-scene-a-movie">
                             <img src="/assets/home-podcast.svg" style="height: 1.5em; margin: 0em"></img><div style="margin-left: 0.5em">Movie Podcast</div>
                         </a> */}
