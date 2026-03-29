@@ -8,6 +8,7 @@ tags:
 
 # 2026
 
+![[The Data Journal Guide#The Data Journal Guide]]
 
 ![[Full-Stack Hobbyist Visuals#Full-Stack Hobbyist Visuals]]
 
