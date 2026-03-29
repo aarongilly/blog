@@ -13,3 +13,5 @@ Most Columns are fine. These ones were good.
 - [[401|401 - AIM Revisited]]
 - [[423|423 - Feature: Solved Problems & Unsolved Problems]]
 - [[482|482 - AIM 3.1 and Auto-Properties]]
+- [[488|488 - Quality > Quantity]]
+
