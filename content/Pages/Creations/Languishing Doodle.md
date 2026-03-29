@@ -6,11 +6,11 @@ date: 2026-03-28
 ---
 # Languishing Doodle
 
-**Excalidraw Doodle**
+**Excalidraw Doodle.**
 
 ![[creation_languishing.png|250]]
 
-## Details
+# Details
 
 I really like using [Excalidraw](https://excalidraw.com) to make little doodles (in addition to its whiteboarding features). 
 
