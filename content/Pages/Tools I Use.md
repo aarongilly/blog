@@ -7,7 +7,10 @@ tags:
 ---
 This page I update from time to time to reflect what tools I use to do things.
 # Physical
+## Every Day Carry (EDC) Bag
 
+- Osprey Daylite Plus - honestly maybe my highest recommendation of anything on this list. Not sponsored.[^1]
+- 
 ## Shop
 
 ![[tools-workbenches.png]]
@@ -36,8 +39,9 @@ This page I update from time to time to reflect what tools I use to do things.
 ## Tech
 ![[tools-phone-lineup.png]]
 ### Computers
+- MacBook Neo
 - iPad Pro 12.9 (4th Gen)
-- iPhone 14 Pro
+- iPhone 14 Pro (still)
 - Mac Mini M4 2024
 - Synology NAS DiskStation DS920+
 ### Peripherals
@@ -72,7 +76,12 @@ Infrequently used, but still around:
 - 8 horse stall mats
 - Pull-up bar - homemade, using floor joists and 1inch steel pipe
 ### Fitness Routine
-A routine feels like a choice of tool. This is what I "aim" for, but in reality I achieve maybe 60-75% of this. I try to workout every day for 35 to 55 minutes, rotating through workouts like so:
+A routine feels like a choice of tool. My goal is overall health and longevity. It is not to "get huge" or win races. 
+
+This is what I "aim" for, but in reality I achieve maybe 60-75% of this. 
+
+I try to workout every day for 35 to 55 minutes. 
+
 - Mon: whole body lifting
 - Tue: long slow run
 - Wed: whole body lifting
@@ -208,3 +217,5 @@ A routine feels like a choice of tool. This is what I "aim" for, but in reality 
 	- Google Fit → never grew into anything worthwhile
 	- Google Keep → lacking desired functions
 	- Chrome Remote Desktop → Jump is much better on the iPad
+
+[^1]: BUT I WOULD GLADLY TAKE SOME FREE STUFF, OSPREY

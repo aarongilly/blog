@@ -1,10 +1,10 @@
 ---
-title: 
+title:
+aliases:
+permalink:
 date: ""
-tags: 
-description: 
+tags:
 draft: true
-permalink: 
 enableToc: true
 ---
 Preamble
