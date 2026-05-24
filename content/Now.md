@@ -5,7 +5,7 @@ enableToc: false
 This is a [now page](https://sive.rs/nowff).
 
 I am currently working on these things... 
-Last affirmed **2026-05-03**.
+Last affirmed **2026-05-23**.
 
 # Now
 

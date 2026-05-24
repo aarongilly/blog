@@ -10,7 +10,15 @@ This page I update from time to time to reflect what tools I use to do things.
 ## Every Day Carry (EDC) Bag
 
 - Osprey Daylite Plus - honestly maybe my highest recommendation of anything on this list. Not sponsored.[^1]
-- 
+	- Iceshaker 36oz water bottle
+	- Evergoods Civic Access Pouch 2L
+		- Post its
+		- Pens & sharpie
+		- Anker multi charger
+		- Ibuprofen & acetaminophen
+		- Shades - cheap
+		- Handkerchief
+		- Various grooming things
 ## Shop
 
 ![[tools-workbenches.png]]
@@ -34,7 +42,8 @@ This page I update from time to time to reflect what tools I use to do things.
     - Miter Saw
 - Project bucket - a 5-gallon bucket with [this insert](https://www.amazon.com/dp/B00A0PA2NK) and a selection of my most-used house project tools
 ## 3D Printing & Electronics
-- Bambi Labs A1 Mini with AMS
+- Bambu Labs A1 Mini
+- Bambu Labs P2S with AMS
 - Hakko FX888DX-010BY soldering station
 ## Tech
 ![[tools-phone-lineup.png]]
@@ -48,7 +57,7 @@ This page I update from time to time to reflect what tools I use to do things.
 - [Dell S2721QS](https://www.amazon.com/gp/product/B08DQWG3JG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1) Monitor x2 - highly recommended
 - [Logitech MX Master 3S](https://www.amazon.com/gp/product/B09KWXZ1HW/)
 - Apple's standard detached mac keyboard
-- AirPods Pro
+- AirPods Pro 2
 ### Capture Devices
 - Apple Pencil
 - Apple Smart Keyboard Folio
@@ -62,7 +71,7 @@ Infrequently used, but still around:
 - Canon EOS Rebel T6
 - GoPro 7 Black
 ## Fitness Tools
-
+- [ ] Put a picture here (soon)
 - Half rack - brand unknown
 - Olympic bar - 45
 - Olympic bar - 35
@@ -72,15 +81,14 @@ Infrequently used, but still around:
 - Hex dumbbells - 5 thru 35 in 5lb increments
 - Bowflex Selecttech 525 x2
 - [Corner cable machine](https://www.costco.com/.product.4000212689.html)
-- [Magnetic resistance rower](https://www.costco.com/proform-pro-trainer-500%3b-rower-with-5%e2%80%9d-display%2c-built-in-tablet-holder-and-spacesaver-design.product.4000231464.html) 
 - 8 horse stall mats
-- Pull-up bar - homemade, using floor joists and 1inch steel pipe
+- Pull-up bar - homemade, using floor joists, 2x4s, and 1inch steel pipe
 ### Fitness Routine
 A routine feels like a choice of tool. My goal is overall health and longevity. It is not to "get huge" or win races. 
 
 This is what I "aim" for, but in reality I achieve maybe 60-75% of this. 
 
-I try to workout every day for 35 to 55 minutes. 
+I try to workout every day for 35 to 55 minutes. I use compound movements for the bulk of every workout.
 
 - Mon: whole body lifting
 - Tue: long slow run
@@ -106,13 +114,15 @@ I try to workout every day for 35 to 55 minutes.
 	- [Vite](https://vitejs.dev/)
 	- [TypeDoc](https://typedoc.org/)
 - Cloud stuff
-	- Firebase (Firestore and Functions)
 	- Cloudflare - hosting
 	- Google Apps Script + Google Sheets - hosting my [[PDW]]
 - Other tools
 	- PlantUML & [MermaidJS](http://mermaid.js.org/)
 	- [DrawIO](https://www.drawio.com/) and [Excalidraw](https://excalidraw.com/)
 	- [Quartz](https://quartz.jzhao.xyz) - static site generator for Obsidian
+- AI
+	- Claude, mostly
+	- ChatGPT and Gemini for one-offs
 
 ## Software & Apps
 
@@ -137,7 +147,8 @@ I try to workout every day for 35 to 55 minutes.
 - [Tesla](https://apps.apple.com/us/app/tesla/id582007913) - car stuff
 - [Pixen](https://pixenapp.com/) - pixel art & animation
 - [Monarch](https://www.monarchmoney.com/) - money tracking
-- [Shortcuts](https://shortcutsgallery.com/) - lots of stuff, but mainly Lifeline Journal inputs
+- [Shortcuts](https://shortcutsgallery.com/) - lots of stuff, but mainly Data Journal inputs
+- [Archi](https://archimatetool.com) - ArchiMate models
 - Apple's Reminders app - location-based reminders and as an inbox
 - Apple’s Calendar app
 - Apple's Mail app
@@ -153,6 +164,7 @@ I try to workout every day for 35 to 55 minutes.
 - Final Cut Pro - video production
 - [Fusion360](https://www.autodesk.com/products/fusion-360/overview?term=1-YEAR&tab=subscription) - CAD
 - [ImageOptim](https://imageoptim.com/mac) - awesome image file size reducing utility
+- [Hyperkey](https://hyperkey.app) - a keyboard shortcut utility
 
 ### iOS and iPadOS
 
@@ -177,7 +189,7 @@ I try to workout every day for 35 to 55 minutes.
 - Apps
 	- Sony Movie Studio Platinum 15 → I replaced it with Final Cut & never liked it to begin with
 	- [Jump Desktop](https://jumpdesktop.com/) - remote desktop client → I never remote any more
-	- [Todoist](http://todoist.com) - task management → determined the native iOS Reminders app + Notion covers my task management needs
+	- [Todoist](http://todoist.com) - task management → determined the native iOS Reminders app covers my task management needs
 	- [GoodNotes 6](https://www.goodnotes.com/) - since their switch to the subscription model I haven't found enough reason to use them over anything else.
 	- [Things 3](https://apps.apple.com/us/app/things-3/id904280696?mt=12) - task management → Same thing happened as [Todoist](https://www.notion.so/Tools-41615f02a1cf4f5e80f29261a5484579?pvs=21)
 	- [Figma](https://apps.apple.com/app/id1152747299) → I don't need the sophistication of Figma for my level of building things
@@ -191,8 +203,9 @@ I try to workout every day for 35 to 55 minutes.
 	- [Notion](http://notion.so) - life management → technically still have Notion, but migrated most things to Obsidian and iOS Calendar / Reminders apps
 	- [Procreate Dreams](https://procreate.com/dreams) - animations → Replaced with the better animation app ToonSquid
 	- [VisualParadigm](https://www.visual-paradigm.com/) - UML & SysML → I just don't do that level of modeling for stuff
-- Coding
 	- Axis360 → My local library finally got it and transitioned to the much better Libby
+- Coding
+	- Firebase (Firestore and Functions) → Migrated all my use cases to Google Apps Script and Google Sheets 
 	- [Shapr3D](http://shapr3d.com) → Replaced by Fusion360
 	- [RescueTime](http://www.rescuetime.com) - automatic time tracking → doesn't work well enough with iOS for me to trust it
 	- [Wrapper-Lib](https://www.npmjs.com/package/wrapper-lib) - my own NPM Module! Replaced with Svelte
