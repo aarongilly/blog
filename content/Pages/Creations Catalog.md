@@ -8,6 +8,7 @@ tags:
 
 # 2026
 
+
 ![[Languishing Doodle#Languishing Doodle]]
 
 ![[The Data Journal Guide#The Data Journal Guide]]
@@ -18,7 +19,7 @@ tags:
 
 # 2025
 
-![[Auto-Properties Plugin#Auto-Properties Plugin]]
+![[Auto-Properties Plugin (V1)#Auto-Properties Plugin]]
 
 ![[Pandora's Box#Pandora's Box]]
 
