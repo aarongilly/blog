@@ -16,15 +16,15 @@ An experiment in Aaron's Puzzles. A one-time treasure hunt event.
 
 Various things around here that I'd like to tweak & upgrade.
 
-## Building a General Purpose Modeling Tool
-
-This has taken 
-
 ## Building a Photo-capable Data Journal Extension
 
 My [[Data Journal]] is excellent - but limited to text-based tracking only. I'd like to be able to capture photos (or any file, really) into the system.
 
 # On Deck/On Hold
+
+## Building a General Purpose Modeling Tool
+
+This has taken a minor back seat
 
 ## Rearchitecting Aaron's Puzzles
 
