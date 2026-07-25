@@ -30,12 +30,12 @@ This page I update from time to time to reflect what tools I use to do things.
     - Reciprocating Saw
     - Jigsaw
     - Multi tool (aka oscillating saw)
-    - Orbital sander
     - Mouse sander
     - Brad Nailer
     - Hot Glue Gun
     - Various lights
     - Radio
+- Orbital sander - corded
 - Standard hand tools
 - [[421|Handmade Workbenches]]
     - Table saw

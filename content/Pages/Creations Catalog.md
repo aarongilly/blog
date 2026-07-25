@@ -8,6 +8,7 @@ tags:
 
 # 2026
 
+![[Auto-Properties Plugin (V2)#Auto-Properties Plugin]]
 
 ![[Languishing Doodle#Languishing Doodle]]
 
