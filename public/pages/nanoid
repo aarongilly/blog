@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generate Nanoid</title>
+</head>
+<body>
+<h1>Nanoid Generator</h1>
+<p>Click the button to generate a new nanoid.</p>
+<button id="generate-button">Generate Nanoid</button>
+<p id="nanoid-display"></p>
+<script type="module">
+import * as nanoid from 'https://esm.run/nanoid';
+const generateButton = document.getElementById('generate-button');
+const nanoidDisplay = document.getElementById('nanoid-display');
+//customizing alphabet & default length, just cause - this one is good for 1B records at 1% collision
+const myNanoIdConfig = nanoid.customAlphabet('346789ABCDEFGHJKLMNPQRTUVWXYabcdefghijkmnpqrtwxyz', 12)
+generateButton.addEventListener('click', () => {
+	const newNanoid = myNanoIdConfig();
+	nanoidDisplay.textContent = `Generated Nanoid: ${newNanoid}`;
+});
+</script>
+</body>
+</html>
