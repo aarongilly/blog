@@ -13,7 +13,8 @@
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
-    "serve": "npx quartz build --serve -d '/Users/aaron/Library/Mobile Documents/iCloud~md~obsidian/Documents/Blog' -o content",
+    "serve": "npx quartz build --serve -d '/Users/aaron/Library/Mobile Documents/iCloud~md~obsidian/Documents/Blog' -o public",
+    "build": "npx quartz build -d '/Users/aaron/Library/Mobile Documents/iCloud~md~obsidian/Documents/Blog' -o public",
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx --test",
