@@ -4,51 +4,46 @@ import * as Component from "./quartz/components"
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [
-    // Component.MyCustomComponent()
-  ],
-  afterBody: [
-    // Component.MyCustomComponent()
-    Component.MobileOnly(Component.RecentNotes({title: "Recent Content"}))
-  ],//Component.MyCustomComponent()],
-  footer: Component.Footer({ // I customized the compontent itself
+  header: [],
+  afterBody: [],
+  footer: Component.Footer({
     links: {
-      "✉️ Subscribe": "http://eepurl.com/gNPOV9",
-      "? About": "/Pages/About",
+      GitHub: "https://github.com/jackyzha0/quartz",
+      "Discord Community": "https://discord.gg/cRFFHYye7t",
     },
   }),
-  // footer: 
 }
 
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    // Component.Breadcrumbs(),
+    Component.ConditionalRender({
+      component: Component.Breadcrumbs(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
     Component.ArticleTitle(),
-    Component.TagList(),
     Component.ContentMeta(),
-    Component.MobileOnly(Component.TableOfContents()),
+    Component.TagList(),
   ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    // Component.MobileOnly(Component.Search()),
-    // Component.MobileOnly(Component.MyCustomMobileComponent()),
-    Component.DesktopOnly(Component.MyCustomComponent()),
-    Component.Spacer(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.Flex({
+      components: [
+        {
+          Component: Component.Search(),
+          grow: true,
+        },
+        { Component: Component.Darkmode() },
+        { Component: Component.ReaderMode() },
+      ],
+    }),
+    Component.Explorer(),
   ],
   right: [
-    // Component.TableOfContents(),
-    // Component.DesktopOnly(Component.Search()),
-    // Component.Search(),
-    // Component.DesktopOnly(Component.MyCustomComponent()),
-    Component.Search(),
+    Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.DesktopOnly(Component.RecentNotes({title: "Recent Content", limit: 4})),
-    // Component.Backlinks(),
-    // Component.Graph(),
-    // Component.Darkmode(),
+    Component.Backlinks(),
   ],
 }
 
@@ -58,15 +53,16 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    // Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer({
-      filterFn: node => {
-        //@ts-ignore
-        return !node.slug?.startsWith('assets') && !node.slug?.startsWith('meta')
-      },
-    })),
+    Component.Flex({
+      components: [
+        {
+          Component: Component.Search(),
+          grow: true,
+        },
+        { Component: Component.Darkmode() },
+      ],
+    }),
+    Component.Explorer(),
   ],
-  right: [
-    Component.MyCustomComponent(),],
+  right: [],
 }
