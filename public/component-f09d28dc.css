@@ -1,0 +1,1 @@
+@layer quartz-base{.sidebar-content{border-top:1px solid var(--column-rule,var(--lightgray));padding-top:1rem;font-size:.84rem;line-height:1.45}.sidebar-content>:first-child{margin-top:0}.sidebar-content>:last-child{margin-bottom:0}}

@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: The Column
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -131,7 +131,7 @@ plugins:
   - source: "@quartz-community/tag-page"
     enabled: true
   - source: "@quartz-community/explorer"
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 50
@@ -148,6 +148,31 @@ plugins:
       group: toolbar
       groupOptions:
         grow: true
+  - source: ./plugins/profile-card
+    enabled: true
+    options:
+      name: Aaron Gillespie
+      image: assets/home-mugshot.png
+      imageAlt: Aaron Gillespie
+      bio: Father, hustband, writer, engineer, general maker of things. Full stack hobbiest.
+      location: Kansas
+      aboutHref: about
+      aboutLabel: About
+      links:
+        - label: Gillespedia
+          href: https://gillespedia.com
+        - label: Puzzles
+          href: https://aaronspuzzles.com
+    layout:
+      position: left
+      priority: 40
+      display: desktop-only
+  - source: ./plugins/sidebar-content
+    enabled: true
+    layout:
+      position: left
+      priority: 45
+      display: desktop-only
   - source: "@quartz-community/backlinks"
     enabled: true
     layout:
@@ -227,11 +252,12 @@ plugins:
     options:
       includeAll: false
       includedProperties:
-        - description
-        - tags
-        - aliases
+        - date
+        # - tags # Until you get auto-tagging happening
+        - tldr
+        - words
       excludedProperties: []
-      hidePropertiesView: false
+      hidePropertiesView: true
       delimiters: ---
       language: yaml
     order: 5
@@ -239,6 +265,7 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
+      condition: not-index
   - source: "@quartz-community/unlisted-pages"
     enabled: true
     options: {}

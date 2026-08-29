@@ -1,0 +1,46 @@
+{
+  "name": "profile-card",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js",
+    "./components": "./dist/components.js"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "esbuild index.ts components.tsx --bundle --format=esm --platform=node --packages=external --outdir=dist"
+  },
+  "peerDependencies": {
+    "@quartz-community/types": "^0.3.0",
+    "@quartz-community/utils": "^0.1.0",
+    "preact": "^10.0.0"
+  },
+  "quartz": {
+    "name": "profile-card",
+    "displayName": "Profile Card",
+    "description": "A compact author profile for the Quartz sidebar",
+    "category": "component",
+    "quartzVersion": ">=5.0.0",
+    "defaultEnabled": true,
+    "defaultOptions": {
+      "name": "Aaron Gillespie",
+      "image": "assets/home-mugshot.png",
+      "imageAlt": "Aaron Gillespie",
+      "bio": "Making things, measuring things, and writing about whatever survives both.",
+      "location": "Kansas",
+      "aboutHref": "pages/about",
+      "aboutLabel": "More about me"
+    },
+    "components": {
+      "ProfileCard": {
+        "name": "profile-card",
+        "displayName": "Profile Card",
+        "description": "Author portrait, short biography, and links",
+        "version": "1.0.0",
+        "defaultPosition": "left",
+        "defaultPriority": 30
+      }
+    }
+  }
+}
