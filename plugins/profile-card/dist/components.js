@@ -1,6 +1,6 @@
 // components.tsx
-import { pathToRoot } from "@quartz-community/utils"
-import { jsx, jsxs } from "preact/jsx-runtime"
+import { pathToRoot } from "@quartz-community/utils";
+import { jsx, jsxs } from "preact/jsx-runtime";
 var defaults = {
   name: "Aaron Gillespie",
   image: "assets/home-mugshot.png",
@@ -9,65 +9,51 @@ var defaults = {
   location: "Kansas",
   aboutHref: "pages/about",
   aboutLabel: "More about me",
-  links: [],
-}
+  links: []
+};
 function localHref(slug, target) {
-  const root = pathToRoot(slug)
-  return `${root}/${target.replace(/^\//, "")}`
+  const root = pathToRoot(slug);
+  return `${root}/${target.replace(/^\//, "")}`;
 }
 var ProfileCard = (userOptions) => {
-  const options = { ...defaults, ...userOptions }
+  const options = { ...defaults, ...userOptions };
   const Component = ({ fileData, displayClass }) => {
-    const slug = fileData.slug
-    return /* @__PURE__ */ jsxs("aside", {
-      class: `${displayClass ?? ""} profile-card`.trim(),
-      "aria-label": `About ${options.name}`,
-      children: [
-        /* @__PURE__ */ jsx("a", {
-          class: "profile-card-image-link",
-          href: localHref(slug, options.aboutHref),
-          children: /* @__PURE__ */ jsx("img", {
-            class: "profile-card-image",
-            src: localHref(slug, options.image),
-            alt: options.imageAlt,
-            loading: "lazy",
-            width: "44",
-            height: "44",
-          }),
-        }),
-        /* @__PURE__ */ jsxs("div", {
-          class: "profile-card-identity",
-          children: [
+    const slug = fileData.slug;
+    return /* @__PURE__ */ jsxs(
+      "aside",
+      {
+        class: `${displayClass ?? ""} profile-card`.trim(),
+        "aria-label": `About ${options.name}`,
+        children: [
+          /* @__PURE__ */ jsx("a", { class: "profile-card-image-link", href: localHref(slug, options.aboutHref), children: /* @__PURE__ */ jsx(
+            "img",
+            {
+              class: "profile-card-image",
+              src: localHref(slug, options.image),
+              alt: options.imageAlt,
+              loading: "lazy",
+              width: "44",
+              height: "44"
+            }
+          ) }),
+          /* @__PURE__ */ jsxs("div", { class: "profile-card-identity", children: [
             /* @__PURE__ */ jsx("p", { class: "profile-card-name", children: options.name }),
-            options.location &&
-              /* @__PURE__ */ jsxs("p", {
-                class: "profile-card-location",
-                children: ["Based in ", options.location],
-              }),
-          ],
-        }),
-        /* @__PURE__ */ jsxs("div", {
-          class: "profile-card-copy",
-          children: [
+            options.location && /* @__PURE__ */ jsxs("p", { class: "profile-card-location", children: [
+              "Based in ",
+              options.location
+            ] })
+          ] }),
+          /* @__PURE__ */ jsxs("div", { class: "profile-card-copy", children: [
             /* @__PURE__ */ jsx("p", { class: "profile-card-bio", children: options.bio }),
-            /* @__PURE__ */ jsxs("nav", {
-              class: "profile-card-links",
-              "aria-label": `${options.name} links`,
-              children: [
-                /* @__PURE__ */ jsx("a", {
-                  href: localHref(slug, options.aboutHref),
-                  children: options.aboutLabel,
-                }),
-                options.links.map((link) =>
-                  /* @__PURE__ */ jsx("a", { href: link.href, children: link.label }),
-                ),
-              ],
-            }),
-          ],
-        }),
-      ],
-    })
-  }
+            /* @__PURE__ */ jsxs("nav", { class: "profile-card-links", "aria-label": `${options.name} links`, children: [
+              /* @__PURE__ */ jsx("a", { href: localHref(slug, options.aboutHref), children: options.aboutLabel }),
+              options.links.map((link) => /* @__PURE__ */ jsx("a", { href: link.href, children: link.label }))
+            ] })
+          ] })
+        ]
+      }
+    );
+  };
   Component.css = `
 .profile-card {
   display: grid;
@@ -76,7 +62,6 @@ var ProfileCard = (userOptions) => {
   align-items: center;
   padding: 0.75rem 0.15rem;
   border-top: 1px solid var(--column-rule, var(--lightgray));
-  border-bottom: 1px solid var(--column-rule, var(--lightgray));
 }
 
 .profile-card-image-link {
@@ -148,7 +133,9 @@ var ProfileCard = (userOptions) => {
   }
 }
 
-`
-  return Component
-}
-export { ProfileCard }
+`;
+  return Component;
+};
+export {
+  ProfileCard
+};
