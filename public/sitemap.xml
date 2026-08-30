@@ -1,34 +1,4 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https://quartz.jzhao.xyz/now</loc>
-    <lastmod>2024-07-25T05:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/</loc>
-    <lastmod>2025-12-13T06:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/pages/about</loc>
-    <lastmod>2026-01-25T06:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/pages/creations-catalog</loc>
-    <lastmod>2024-07-25T05:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/pages/data-journal</loc>
-    <lastmod>2024-12-05T06:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/pages/general-operating-principles</loc>
-    <lastmod>2024-09-11T05:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/pages/notes</loc>
-    <lastmod>2026-08-29T22:44:10.321Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/pages/pantheon-of-good-columns</loc>
-    <lastmod>2024-08-22T05:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/pages/puzzles</loc>
-    <lastmod>2026-08-29T22:44:38.212Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/pages/tools-i-use</loc>
-    <lastmod>2024-07-25T05:00:00.000Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/columns/1</loc>
     <lastmod>2012-03-16T00:00:00.000Z</lastmod>
   </url><url>
@@ -1511,8 +1481,17 @@
     <loc>https://quartz.jzhao.xyz/columns/99</loc>
     <lastmod>2013-07-08T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/now</loc>
+    <lastmod>2024-07-25T05:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/pages/about</loc>
+    <lastmod>2026-01-25T06:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/pages/archive/data-journal---archived</loc>
     <lastmod>2024-10-16T05:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/pages/creations-catalog</loc>
+    <lastmod>2024-07-25T05:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/pages/creations/6th-second-a-day-video</loc>
     <lastmod>2018-08-12T05:00:00.000Z</lastmod>
@@ -1622,78 +1601,99 @@
     <loc>https://quartz.jzhao.xyz/pages/creations/wrapper-library</loc>
     <lastmod>2022-06-20T05:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/pages/</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/pages/data-journal</loc>
+    <lastmod>2024-12-05T06:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/pages/general-operating-principles</loc>
+    <lastmod>2024-09-11T05:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/pages/notes</loc>
+    <lastmod>2026-08-29T22:44:10.321Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/pages/pantheon-of-good-columns</loc>
+    <lastmod>2024-08-22T05:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/pages/puzzles</loc>
+    <lastmod>2026-08-29T22:44:38.212Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/pages/tools-i-use</loc>
+    <lastmod>2024-07-25T05:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/</loc>
+    <lastmod>2025-12-13T06:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/columns/</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/pages/</loc>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/pages/archive/</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/pages/creations/</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/tags/feature</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/tags/good</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/tags/datajournal</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/tags/302</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/tags/30daychallenge</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/tags/self-improvement</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/tags/aim</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/tags/4</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/tags/yearinreview</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/tags/creation</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/tags/creation/video</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/tags/creation/coding</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/tags/creation/other</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/tags/creation/puzzlebox</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/tags/creation/web</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/tags/creation/writing</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/tags/creation/crafting</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/tags/creation/drawing</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/tags/creation/pixen</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/tags/creation/audio</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/tags/</loc>
-    <lastmod>2026-08-30T00:15:24.576Z</lastmod>
+    <lastmod>2026-08-30T16:31:12.453Z</lastmod>
   </url></urlset>

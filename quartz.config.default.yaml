@@ -154,15 +154,13 @@ plugins:
       name: Aaron Gillespie
       image: assets/home-mugshot.png
       imageAlt: Aaron Gillespie
-      bio: Father, hustband, writer, engineer, general maker of things. Full stack hobbiest.
+      bio: Father, hustband, writer, engineer, full stack hobbiest, general maker of things.
       location: Kansas
       aboutHref: about
       aboutLabel: About
       links:
-        - label: Gillespedia
-          href: https://gillespedia.com
-        - label: Puzzles
-          href: https://aaronspuzzles.com
+        - label: Subscribe to Updates
+          href: http://eepurl.com/gNPOV9
     layout:
       position: left
       priority: 40
