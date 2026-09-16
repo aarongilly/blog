@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: aarongilly
+  baseUrl: aarongilly.com
   ignorePatterns:
     - private
     - templates
@@ -154,7 +154,7 @@ plugins:
       name: Aaron Gillespie
       image: assets/home-mugshot.png
       imageAlt: Aaron Gillespie
-      bio: Father, hustband, writer, engineer, full stack hobbiest, general maker of things.
+      bio: Father, husband, writer, engineer, full stack hobbiest, general maker of things.
       location: Kansas
       aboutHref: about
       aboutLabel: About
