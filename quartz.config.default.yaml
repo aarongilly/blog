@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: aarongilly
+  baseUrl: aarongilly.com
   ignorePatterns:
     - private
     - templates
@@ -115,7 +115,11 @@ plugins:
     enabled: true
     options:
       enableSiteMap: true
-      enableRSS: true
+      enableRSS: false
+  - source: ./plugins/columns-rss
+    enabled: true
+    options:
+      rssLimit: 10
   - source: "@quartz-community/favicon"
     enabled: true
   - source: "@quartz-community/og-image"
