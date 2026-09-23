@@ -1,70 +1,79 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
-    <channel>
-      <title>The Column</title>
-      <link>https://aarongilly</link>
-      <description>Last 10 notes on The Column</description>
-      <generator>Quartz -- quartz.jzhao.xyz</generator>
-      <item>
-    <title>Columns</title>
-    <link>https://aarongilly/columns/</link>
-    <guid>https://aarongilly/columns/</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 21 Sep 2026 02:45:19 GMT</pubDate>
-  </item><item>
-    <title>Pages</title>
-    <link>https://aarongilly/pages/</link>
-    <guid>https://aarongilly/pages/</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 21 Sep 2026 02:45:19 GMT</pubDate>
-  </item><item>
-    <title>Archive</title>
-    <link>https://aarongilly/pages/archive/</link>
-    <guid>https://aarongilly/pages/archive/</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 21 Sep 2026 02:45:19 GMT</pubDate>
-  </item><item>
-    <title>Creations</title>
-    <link>https://aarongilly/pages/creations/</link>
-    <guid>https://aarongilly/pages/creations/</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 21 Sep 2026 02:45:19 GMT</pubDate>
-  </item><item>
-    <title>feature</title>
-    <link>https://aarongilly/tags/feature</link>
-    <guid>https://aarongilly/tags/feature</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 21 Sep 2026 02:45:19 GMT</pubDate>
-  </item><item>
-    <title>good</title>
-    <link>https://aarongilly/tags/good</link>
-    <guid>https://aarongilly/tags/good</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 21 Sep 2026 02:45:19 GMT</pubDate>
-  </item><item>
-    <title>datajournal</title>
-    <link>https://aarongilly/tags/datajournal</link>
-    <guid>https://aarongilly/tags/datajournal</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 21 Sep 2026 02:45:19 GMT</pubDate>
-  </item><item>
-    <title>302</title>
-    <link>https://aarongilly/tags/302</link>
-    <guid>https://aarongilly/tags/302</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 21 Sep 2026 02:45:19 GMT</pubDate>
-  </item><item>
-    <title>30daychallenge</title>
-    <link>https://aarongilly/tags/30daychallenge</link>
-    <guid>https://aarongilly/tags/30daychallenge</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 21 Sep 2026 02:45:19 GMT</pubDate>
-  </item><item>
-    <title>self-improvement</title>
-    <link>https://aarongilly/tags/self-improvement</link>
-    <guid>https://aarongilly/tags/self-improvement</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 21 Sep 2026 02:45:19 GMT</pubDate>
+  <channel>
+    <title>The Column</title>
+    <link>https://aarongilly.com</link>
+    <description>Recent columns on The Column</description>
+    <generator>Quartz -- quartz.jzhao.xyz</generator>
+    <item>
+    <title>#499 - Real RSS Fix and Niche Interests</title>
+    <link>https://aarongilly.com/columns/499</link>
+    <guid>https://aarongilly.com/columns/499</guid>
+    <description> RSS fix number 2.. and niche interests Okay hopefully the RSS feed is fixed for real this time.</description>
+    <pubDate>Sun, 20 Sep 2026 05:00:00 GMT</pubDate>
   </item>
-    </channel>
-  </rss>
+<item>
+    <title>#498 - RSS Fix &amp; Doodles</title>
+    <link>https://aarongilly.com/columns/498</link>
+    <guid>https://aarongilly.com/columns/498</guid>
+    <description> Tldr Whoops. RSS Fix &amp;amp; Whatnot Like I said in my last Column, the whole codebase was revamped. In so doing I partly broke the RSS Feed.</description>
+    <pubDate>Mon, 31 Aug 2026 05:00:00 GMT</pubDate>
+  </item>
+<item>
+    <title>#497 - Site Updates</title>
+    <link>https://aarongilly.com/columns/497</link>
+    <guid>https://aarongilly.com/columns/497</guid>
+    <description> TLDR Minor site changes &amp;amp; puzzle box updates I didn’t feel like waiting until Column 500 to make site changes.</description>
+    <pubDate>Sat, 29 Aug 2026 05:00:00 GMT</pubDate>
+  </item>
+<item>
+    <title>#496 - Revisiting Old Tools</title>
+    <link>https://aarongilly.com/columns/496</link>
+    <guid>https://aarongilly.com/columns/496</guid>
+    <description>I haven’t used Google Chrome much the past 5 or 6 years.</description>
+    <pubDate>Tue, 11 Aug 2026 05:00:00 GMT</pubDate>
+  </item>
+<item>
+    <title>#495 - Where My Time&#039;s Gone</title>
+    <link>https://aarongilly.com/columns/495</link>
+    <guid>https://aarongilly.com/columns/495</guid>
+    <description>Several topics that have consumed my life recently - sorted from “relatable” to “what is Aaron even talking about?” Home Project Madness The 100 Day Glow Up was followed by a home makeover blitz.</description>
+    <pubDate>Fri, 24 Jul 2026 05:00:00 GMT</pubDate>
+  </item>
+<item>
+    <title>#494 - 100 Day Glow Up</title>
+    <link>https://aarongilly.com/columns/494</link>
+    <guid>https://aarongilly.com/columns/494</guid>
+    <description>Review of a timeboxed challenge &amp;amp; spiritual sequel to Column 459. 100 Day “Glow Up” Challenge Why Life is better during a challenge. Evidence.</description>
+    <pubDate>Sat, 04 Jul 2026 05:00:00 GMT</pubDate>
+  </item>
+<item>
+    <title>#493 - Index Cards, Essays, Less Phone</title>
+    <link>https://aarongilly.com/columns/493</link>
+    <guid>https://aarongilly.com/columns/493</guid>
+    <description>Nothing brand new here. Updates on my usual set of topics. I’ll keep it short. WWDC 2026 Apple’s Worldwide Developers Conference was this week.</description>
+    <pubDate>Tue, 23 Jun 2026 05:00:00 GMT</pubDate>
+  </item>
+<item>
+    <title>#492 - Feature: Osprey Daylite Plus</title>
+    <link>https://aarongilly.com/columns/492</link>
+    <guid>https://aarongilly.com/columns/492</guid>
+    <description> What? Yes this is just a Column about how good my backpack is. I wrote one about my other backpack 8 years ago. I like this bag better than that one.</description>
+    <pubDate>Fri, 12 Jun 2026 05:00:00 GMT</pubDate>
+  </item>
+<item>
+    <title>#491 - Auto-properties plugin and clarity on goals</title>
+    <link>https://aarongilly.com/columns/491</link>
+    <guid>https://aarongilly.com/columns/491</guid>
+    <description>Let’s party. Obsidian Auto-properties is Live! I submitted my 2nd ever plugin to Obsidian’s community plugins registry in December of last year.</description>
+    <pubDate>Sat, 23 May 2026 05:00:00 GMT</pubDate>
+  </item>
+<item>
+    <title>#490 - Broken Records</title>
+    <link>https://aarongilly.com/columns/490</link>
+    <guid>https://aarongilly.com/columns/490</guid>
+    <description> Tldr Life is good. Melissa is great. I tracked 13 years. Some philosophy mumbo jumbo.</description>
+    <pubDate>Sun, 03 May 2026 05:00:00 GMT</pubDate>
+  </item>
+  </channel>
+</rss>
