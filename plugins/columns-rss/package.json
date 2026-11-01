@@ -1,0 +1,21 @@
+{
+  "name": "columns-rss",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "quartz": {
+    "name": "columns-rss",
+    "displayName": "Columns RSS",
+    "description": "RSS feed for authored content in columns only",
+    "category": "emitter",
+    "quartzVersion": ">=5.0.0",
+    "defaultEnabled": true,
+    "defaultOptions": {
+      "rssLimit": 10
+    }
+  }
+}
