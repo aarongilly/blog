@@ -6,6 +6,13 @@
     <description>Recent columns on The Column</description>
     <generator>Quartz -- quartz.jzhao.xyz</generator>
     <item>
+    <title>#253 - Which was skipped</title>
+    <link>https://aarongilly.com/columns/253</link>
+    <guid>https://aarongilly.com/columns/253</guid>
+    <description> Out of sequence Column number 2 (of 3). This one about organizing.</description>
+    <pubDate>Sat, 31 Oct 2026 05:00:00 GMT</pubDate>
+  </item>
+<item>
     <title>#357 - A few years late.</title>
     <link>https://aarongilly.com/columns/357</link>
     <guid>https://aarongilly.com/columns/357</guid>
@@ -67,13 +74,6 @@
     <guid>https://aarongilly.com/columns/492</guid>
     <description> What? Yes this is just a Column about how good my backpack is. I wrote one about my other backpack 8 years ago. I like this bag better than that one.</description>
     <pubDate>Fri, 12 Jun 2026 05:00:00 GMT</pubDate>
-  </item>
-<item>
-    <title>#491 - Auto-properties plugin and clarity on goals</title>
-    <link>https://aarongilly.com/columns/491</link>
-    <guid>https://aarongilly.com/columns/491</guid>
-    <description>Let’s party. Obsidian Auto-properties is Live! I submitted my 2nd ever plugin to Obsidian’s community plugins registry in December of last year.</description>
-    <pubDate>Sat, 23 May 2026 05:00:00 GMT</pubDate>
   </item>
   </channel>
 </rss>
