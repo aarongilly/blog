@@ -5,6 +5,20 @@ import path from "node:path"
 import test from "node:test"
 import { ColumnsRss } from "./index.js"
 import { ContentIndex } from "@quartz-community/content-index"
+import { validateRssConfig, validateRssFeed } from "./validate.js"
+
+test("site configuration keeps the columns emitter as the only RSS writer", async () => {
+  await validateRssConfig()
+})
+
+test("feed validation rejects general feeds and broken domains", () => {
+  const feed = (url) => `<item><link>${url}</link><guid>${url}</guid></item>`
+  validateRssFeed(feed("https://aarongilly.com/columns/243"))
+  assert.throws(() => validateRssFeed(feed("https://aarongilly.com/pages/about")))
+  assert.throws(() => validateRssFeed(feed("https://aarongilly.com/columns/")))
+  assert.throws(() => validateRssFeed(feed("https://aarongilly/columns/243")))
+  assert.throws(() => validateRssFeed("<rss></rss>"))
+})
 
 test("RSS filters before limiting, preserves other indexes, and refreshes on partial builds", async () => {
   const output = await fs.mkdtemp(path.join(os.tmpdir(), "columns-rss-"))
