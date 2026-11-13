@@ -119,7 +119,7 @@ plugins:
   - source: ./plugins/columns-rss
     enabled: true
     options:
-      rssLimit: 10
+      rssLimit: 3
   - source: "@quartz-community/favicon"
     enabled: true
   - source: "@quartz-community/og-image"
